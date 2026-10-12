@@ -1,0 +1,660 @@
+{
+  "status": "ok",
+  "query": "Which countries have the most recruiting trials for melanoma?",
+  "visualization": {
+    "title": "Recruiting melanoma trials by country",
+    "type": "bar_chart",
+    "encoding": {
+      "x": {
+        "field": "country",
+        "type": "categorical",
+        "title": "Country",
+        "unit": null
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "country": "United States",
+        "trial_count": 247
+      },
+      {
+        "id": "d2",
+        "country": "China",
+        "trial_count": 59
+      },
+      {
+        "id": "d3",
+        "country": "Australia",
+        "trial_count": 51
+      },
+      {
+        "id": "d4",
+        "country": "France",
+        "trial_count": 49
+      },
+      {
+        "id": "d5",
+        "country": "Italy",
+        "trial_count": 40
+      },
+      {
+        "id": "d6",
+        "country": "Germany",
+        "trial_count": 36
+      },
+      {
+        "id": "d7",
+        "country": "Spain",
+        "trial_count": 36
+      },
+      {
+        "id": "d8",
+        "country": "Canada",
+        "trial_count": 34
+      },
+      {
+        "id": "d9",
+        "country": "United Kingdom",
+        "trial_count": 29
+      },
+      {
+        "id": "d10",
+        "country": "Netherlands",
+        "trial_count": 27
+      }
+    ]
+  },
+  "citations": {
+    "d1": {
+      "total": 247,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22United+States%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "United States",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[0].country",
+              "value": "United States"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "United States",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[0].country",
+              "value": "United States"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT00001823",
+          "title": "Evaluation for NCI Surgery Branch Clinical Research Protocols",
+          "url": "https://clinicaltrials.gov/study/NCT00001823",
+          "bucket_label": "United States",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[0].country",
+              "value": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "d2": {
+      "total": 59,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22China%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "China",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[32].country",
+              "value": "China"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "China",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[7].country",
+              "value": "China"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07492680",
+          "title": "A Study of BMS-986504 Monotherapy and in Combination With Other Agents in Participants With Advanced and/or Metastatic Solid Tumors With Homozygous MTAP Deletion (MountainTAP-5)",
+          "url": "https://clinicaltrials.gov/study/NCT07492680",
+          "bucket_label": "China",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[22].country",
+              "value": "China"
+            }
+          ]
+        }
+      ]
+    },
+    "d3": {
+      "total": 51,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Australia%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "Australia",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[19].country",
+              "value": "Australia"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03340129",
+          "title": "Anti-PD 1 Brain Collaboration + Radiotherapy Extension (ABC-X Study)",
+          "url": "https://clinicaltrials.gov/study/NCT03340129",
+          "bucket_label": "Australia",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[0].country",
+              "value": "Australia"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07115043",
+          "title": "A Study to Investigate Safety of AZD6750 in Adult Participants With Select Advanced or Metastatic Solid Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07115043",
+          "bucket_label": "Australia",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[6].country",
+              "value": "Australia"
+            }
+          ]
+        }
+      ]
+    },
+    "d4": {
+      "total": 49,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22France%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "France",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[10].country",
+              "value": "France"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06697301",
+          "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+          "url": "https://clinicaltrials.gov/study/NCT06697301",
+          "bucket_label": "France",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[34].country",
+              "value": "France"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07492680",
+          "title": "A Study of BMS-986504 Monotherapy and in Combination With Other Agents in Participants With Advanced and/or Metastatic Solid Tumors With Homozygous MTAP Deletion (MountainTAP-5)",
+          "url": "https://clinicaltrials.gov/study/NCT07492680",
+          "bucket_label": "France",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[28].country",
+              "value": "France"
+            }
+          ]
+        }
+      ]
+    },
+    "d5": {
+      "total": 40,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Italy%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "Italy",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[42].country",
+              "value": "Italy"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06697301",
+          "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+          "url": "https://clinicaltrials.gov/study/NCT06697301",
+          "bucket_label": "Italy",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[66].country",
+              "value": "Italy"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07492680",
+          "title": "A Study of BMS-986504 Monotherapy and in Combination With Other Agents in Participants With Advanced and/or Metastatic Solid Tumors With Homozygous MTAP Deletion (MountainTAP-5)",
+          "url": "https://clinicaltrials.gov/study/NCT07492680",
+          "bucket_label": "Italy",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[43].country",
+              "value": "Italy"
+            }
+          ]
+        }
+      ]
+    },
+    "d6": {
+      "total": 36,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Germany%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "Germany",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[37].country",
+              "value": "Germany"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "Germany",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[15].country",
+              "value": "Germany"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06508775",
+          "title": "Long-Term Follow-up of Patients Treated With Miltenyi Cell and Gene Therapies",
+          "url": "https://clinicaltrials.gov/study/NCT06508775",
+          "bucket_label": "Germany",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[0].country",
+              "value": "Germany"
+            }
+          ]
+        }
+      ]
+    },
+    "d7": {
+      "total": 36,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Spain%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "Spain",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[49].country",
+              "value": "Spain"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "Spain",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[28].country",
+              "value": "Spain"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06697301",
+          "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+          "url": "https://clinicaltrials.gov/study/NCT06697301",
+          "bucket_label": "Spain",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[100].country",
+              "value": "Spain"
+            }
+          ]
+        }
+      ]
+    },
+    "d8": {
+      "total": 34,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Canada%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "Canada",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[6].country",
+              "value": "Canada"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06246916",
+          "title": "A Study With Combinations of Anti-LAG-3 and Anti-PD-1 Antibodies in Adult Participants With Advanced or Metastatic Melanoma (Harmony Head-to-Head)",
+          "url": "https://clinicaltrials.gov/study/NCT06246916",
+          "bucket_label": "Canada",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[106].country",
+              "value": "Canada"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06697301",
+          "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+          "url": "https://clinicaltrials.gov/study/NCT06697301",
+          "bucket_label": "Canada",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[26].country",
+              "value": "Canada"
+            }
+          ]
+        }
+      ]
+    },
+    "d9": {
+      "total": 29,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22United+Kingdom%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT07070232",
+          "title": "A Clinical Study to Test if an Investigational Treatment Called BNT326 is Safe and Potentially Beneficial When Used Alone or in Combination With Other Investigational Treatments Such as BNT327, for People With Advanced Malignant Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07070232",
+          "bucket_label": "United Kingdom",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[65].country",
+              "value": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06697301",
+          "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+          "url": "https://clinicaltrials.gov/study/NCT06697301",
+          "bucket_label": "United Kingdom",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[123].country",
+              "value": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06172478",
+          "title": "A Study of HER3-DXd in Subjects With Locally Advanced or Metastatic Solid Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT06172478",
+          "bucket_label": "United Kingdom",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[89].country",
+              "value": "United Kingdom"
+            }
+          ]
+        }
+      ]
+    },
+    "d10": {
+      "total": 27,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=melanoma&term=%28AREA%5BOverallStatus%5DRECRUITING%29+AND+AREA%5BLocationCountry%5DCOVERAGE%5BFullMatch%5D%22Netherlands%22",
+      "search_is_exact": false,
+      "items": [
+        {
+          "nct_id": "NCT03340506",
+          "title": "Dabrafenib and/or Trametinib Rollover Study",
+          "url": "https://clinicaltrials.gov/study/NCT03340506",
+          "bucket_label": "Netherlands",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[26].country",
+              "value": "Netherlands"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06172478",
+          "title": "A Study of HER3-DXd in Subjects With Locally Advanced or Metastatic Solid Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT06172478",
+          "bucket_label": "Netherlands",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[56].country",
+              "value": "Netherlands"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07224425",
+          "title": "A Study of BI 3810944 in Patients With Advanced Cancer",
+          "url": "https://clinicaltrials.gov/study/NCT07224425",
+          "bucket_label": "Netherlands",
+          "evidence": [
+            {
+              "field": "protocolSection.contactsLocationsModule.locations[6].country",
+              "value": "Netherlands"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meta": {
+    "plan": {
+      "mode": "aggregate",
+      "filters": {
+        "condition": "melanoma",
+        "drug": null,
+        "sponsor": null,
+        "country": null,
+        "status": [
+          "RECRUITING"
+        ],
+        "phase": null,
+        "start_year_min": null,
+        "start_year_max": null
+      },
+      "series": [
+        {
+          "label": "All",
+          "filters": {
+            "condition": null,
+            "drug": null,
+            "sponsor": null,
+            "country": null,
+            "status": null,
+            "phase": null,
+            "start_year_min": null,
+            "start_year_max": null
+          }
+        }
+      ],
+      "group_by": [
+        "country"
+      ],
+      "bin": null,
+      "x_field": null,
+      "y_field": null,
+      "start_field": null,
+      "end_field": null,
+      "network": null,
+      "sort": "desc",
+      "limit": 10,
+      "chart_type": null,
+      "search_terms": {
+        "drug": [],
+        "condition": [],
+        "sponsor": []
+      },
+      "interpretation": "Count recruiting melanoma trials per country and show the countries with the most.",
+      "unsupported_reason": null,
+      "alternatives": []
+    },
+    "interpretation": "Count recruiting melanoma trials per country and show the countries with the most.",
+    "filters_applied": {
+      "All": {
+        "condition": "melanoma",
+        "status": [
+          "RECRUITING"
+        ]
+      }
+    },
+    "search_terms": {},
+    "sort": "desc",
+    "time_granularity": null,
+    "units": {
+      "y": "trials"
+    },
+    "trials_matched": 479,
+    "trials_used": 479,
+    "tier": 1,
+    "chart_overridden": false,
+    "pruning": null,
+    "notes": [
+      "51 different values of country were found; only the 10 with the most trials are shown.",
+      "Trials with more than one country are counted once per country, so the bars add up to more than the 479 trials found."
+    ],
+    "source": "clinicaltrials.gov",
+    "data_timestamp": "2026-10-09T09:00:05",
+    "retrieved_at": "2026-10-12T17:01:50+00:00",
+    "suggestions": [],
+    "trace": [
+      {
+        "step": "plan",
+        "ms": 2095.6,
+        "model": "gpt-5.4-mini",
+        "retries": 0,
+        "llm_calls": 1,
+        "tool_calls": [],
+        "input_tokens": 4909,
+        "output_tokens": 226
+      },
+      {
+        "step": "validate",
+        "ms": 0.2,
+        "errors": []
+      },
+      {
+        "step": "fetch",
+        "ms": 444.5,
+        "api_calls": 2,
+        "cache_hits": 0,
+        "tier": 1,
+        "trials_matched": 479,
+        "series": [
+          {
+            "label": "All",
+            "trials_matched": 479,
+            "tier": 1,
+            "error": null
+          }
+        ]
+      },
+      {
+        "step": "aggregate",
+        "ms": 1.7,
+        "data_points": 10,
+        "trials_used": 479,
+        "dropped": {}
+      },
+      {
+        "step": "cite",
+        "ms": 7.1,
+        "data_points": 10,
+        "trials_cited": 30,
+        "from_sample": false
+      },
+      {
+        "step": "build",
+        "ms": 0.5,
+        "chart": "bar_chart",
+        "chart_overridden": false
+      }
+    ]
+  },
+  "error": null
+}

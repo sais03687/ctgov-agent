@@ -1,0 +1,832 @@
+{
+  "status": "ok",
+  "query": "How has the number of trials for semaglutide changed per year since 2015?",
+  "visualization": {
+    "title": "Semaglutide trials by start year since 2015",
+    "type": "time_series",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "title": "Start year",
+        "unit": null
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials"
+      },
+      "series": null
+    },
+    "data": [
+      {
+        "id": "d1",
+        "year": 2015,
+        "trial_count": 3
+      },
+      {
+        "id": "d2",
+        "year": 2016,
+        "trial_count": 12
+      },
+      {
+        "id": "d3",
+        "year": 2017,
+        "trial_count": 11
+      },
+      {
+        "id": "d4",
+        "year": 2018,
+        "trial_count": 21
+      },
+      {
+        "id": "d5",
+        "year": 2019,
+        "trial_count": 41
+      },
+      {
+        "id": "d6",
+        "year": 2020,
+        "trial_count": 23
+      },
+      {
+        "id": "d7",
+        "year": 2021,
+        "trial_count": 49
+      },
+      {
+        "id": "d8",
+        "year": 2022,
+        "trial_count": 69
+      },
+      {
+        "id": "d9",
+        "year": 2023,
+        "trial_count": 88
+      },
+      {
+        "id": "d10",
+        "year": 2024,
+        "trial_count": 121
+      },
+      {
+        "id": "d11",
+        "year": 2025,
+        "trial_count": 130
+      },
+      {
+        "id": "d12",
+        "year": 2026,
+        "trial_count": 158
+      },
+      {
+        "id": "d13",
+        "year": 2027,
+        "trial_count": 11
+      },
+      {
+        "id": "d14",
+        "year": 2028,
+        "trial_count": 1
+      }
+    ]
+  },
+  "citations": {
+    "d1": {
+      "total": 3,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2015-01-01%2C2015-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT02453711",
+          "title": "Investigation of Safety and Efficacy of Once-daily Semaglutide in Obese Subjects Without Diabetes Mellitus",
+          "url": "https://clinicaltrials.gov/study/NCT02453711",
+          "bucket_label": "2015",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2015-10-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02461589",
+          "title": "Dose-finding of Semaglutide Administered Subcutaneously Once Daily Versus Placebo and Liraglutide in Subjects With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT02461589",
+          "bucket_label": "2015",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2015-09-21"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02557620",
+          "title": "Comparing Semaglutide Administered Subcutaneously Once Daily to Semaglutide Administered Subcutaneously Once Weekly",
+          "url": "https://clinicaltrials.gov/study/NCT02557620",
+          "bucket_label": "2015",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2015-09"
+            }
+          ]
+        }
+      ]
+    },
+    "d2": {
+      "total": 12,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2016-01-01%2C2016-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT02607865",
+          "title": "Efficacy and Long-term Safety of Oral Semaglutide Versus Sitagliptin in Subjects With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT02607865",
+          "bucket_label": "2016",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2016-02-15"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02648204",
+          "title": "Efficacy and Safety of Semaglutide Versus Dulaglutide as add-on to Metformin in Subjects With Type 2 Diabetes.",
+          "url": "https://clinicaltrials.gov/study/NCT02648204",
+          "bucket_label": "2016",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2016-01-06"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02863328",
+          "title": "Efficacy and Safety of Oral Semaglutide Versus Empagliflozin in Subjects With Type 2 Diabetes Mellitus",
+          "url": "https://clinicaltrials.gov/study/NCT02863328",
+          "bucket_label": "2016",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2016-08-10"
+            }
+          ]
+        }
+      ]
+    },
+    "d3": {
+      "total": 11,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2017-01-01%2C2017-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT02692716",
+          "title": "A Trial Investigating the Cardiovascular Safety of Oral Semaglutide in Subjects With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT02692716",
+          "bucket_label": "2017",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2017-01-17"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03061214",
+          "title": "Efficacy and Safety of Semaglutide Once-weekly Versus Sitagliptin Once-daily as add-on to Metformin in Subjects With Type 2 Diabetes (SUSTAIN - CHINA MRCT)",
+          "url": "https://clinicaltrials.gov/study/NCT03061214",
+          "bucket_label": "2017",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2017-08-28"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03136484",
+          "title": "Efficacy and Safety of Semaglutide Versus Canagliflozin as add-on to Metformin in Subjects With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT03136484",
+          "bucket_label": "2017",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2017-03-15"
+            }
+          ]
+        }
+      ]
+    },
+    "d4": {
+      "total": 21,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2018-01-01%2C2018-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT03574597",
+          "title": "Semaglutide Effects on Heart Disease and Stroke in Patients With Overweight or Obesity",
+          "url": "https://clinicaltrials.gov/study/NCT03574597",
+          "bucket_label": "2018",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2018-10-24"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03689374",
+          "title": "A Research Study to Compare Semaglutide to Insulin Aspart, When Taken Together With Metformin and Insulin Glargine, in People With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT03689374",
+          "bucket_label": "2018",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2018-10-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03724981",
+          "title": "A Study Comparing the Dulaglutide Pen and the Semaglutide Pen",
+          "url": "https://clinicaltrials.gov/study/NCT03724981",
+          "bucket_label": "2018",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2018-10-18"
+            }
+          ]
+        }
+      ]
+    },
+    "d5": {
+      "total": 41,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2019-01-01%2C2019-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT03914326",
+          "title": "A Heart Disease Study of Semaglutide in Patients With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT03914326",
+          "bucket_label": "2019",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2019-06-17"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03819153",
+          "title": "A Research Study to See How Semaglutide Works Compared to Placebo in People With Type 2 Diabetes and Chronic Kidney Disease",
+          "url": "https://clinicaltrials.gov/study/NCT03819153",
+          "bucket_label": "2019",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2019-06-17"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03987919",
+          "title": "A Study of Tirzepatide (LY3298176) Versus Semaglutide Once Weekly as Add-on Therapy to Metformin in Participants With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT03987919",
+          "bucket_label": "2019",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2019-07-30"
+            }
+          ]
+        }
+      ]
+    },
+    "d6": {
+      "total": 23,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2020-01-01%2C2020-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT04469855",
+          "title": "Post-Marketing Surveillance (Special Use-results Surveillance) on Long-term Use With Ozempic®",
+          "url": "https://clinicaltrials.gov/study/NCT04469855",
+          "bucket_label": "2020",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2020-07-27"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05503927",
+          "title": "A Study to Evaluate the Safety of Exposure to Wegovy During Pregnancy",
+          "url": "https://clinicaltrials.gov/study/NCT05503927",
+          "bucket_label": "2020",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2020-02-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04175665",
+          "title": "Real-world Health Outcomes in Canadian Patients Using Semaglutide",
+          "url": "https://clinicaltrials.gov/study/NCT04175665",
+          "bucket_label": "2020",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2020-01-06"
+            }
+          ]
+        }
+      ]
+    },
+    "d7": {
+      "total": 49,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2021-01-01%2C2021-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05220917",
+          "title": "Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study",
+          "url": "https://clinicaltrials.gov/study/NCT05220917",
+          "bucket_label": "2021",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2021-08-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05161429",
+          "title": "BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT05161429",
+          "bucket_label": "2021",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2021-07-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04572165",
+          "title": "Epidemiological Assessment of the Risk for Pancreatic Cancer Associated With the Use of Semaglutide in Patients With Type 2 Diabetes - A Cohort Study Based on Nordic Registry Data",
+          "url": "https://clinicaltrials.gov/study/NCT04572165",
+          "bucket_label": "2021",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2021-01-26"
+            }
+          ]
+        }
+      ]
+    },
+    "d8": {
+      "total": 69,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2022-01-01%2C2022-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05768945",
+          "title": "Data Analysis for Drug Repurposing for Effective Alzheimer's Medicines (DREAM)- Semaglutide v DPP4 Inhibitors",
+          "url": "https://clinicaltrials.gov/study/NCT05768945",
+          "bucket_label": "2022",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2022-11-30"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05390892",
+          "title": "PREvention of CardIovascular and DiabEtic kidNey Disease in Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT05390892",
+          "bucket_label": "2022",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2022-09-26"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05567796",
+          "title": "A Research Study to See How Well CagriSema Helps People With Excess Body Weight Lose Weight",
+          "url": "https://clinicaltrials.gov/study/NCT05567796",
+          "bucket_label": "2022",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2022-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    "d9": {
+      "total": 88,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2023-01-01%2C2023-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05441267",
+          "title": "A Study of Cardiovascular Events iN Diabetes Plus",
+          "url": "https://clinicaltrials.gov/study/NCT05441267",
+          "bucket_label": "2023",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2023-03-13"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05700877",
+          "title": "Screening and Intervention for Subclinical Coronary Artery Disease in Patients With Type 2 Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT05700877",
+          "bucket_label": "2023",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2023-01-12"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05669755",
+          "title": "REDEFINE 3: A Research Study to See the Effects of CagriSema in People Living With Diseases in the Heart and Blood Vessels",
+          "url": "https://clinicaltrials.gov/study/NCT05669755",
+          "bucket_label": "2023",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2023-03-01"
+            }
+          ]
+        }
+      ]
+    },
+    "d10": {
+      "total": 121,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2024-01-01%2C2024-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07096063",
+          "title": "Comparative Effectiveness of Tirzepatide and Semaglutide in Individuals at Cardiovascular Risk",
+          "url": "https://clinicaltrials.gov/study/NCT07096063",
+          "bucket_label": "2024",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2024-10-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06659744",
+          "title": "Emulation of the SUSTAIN6 Diabetes Trial Using Healthcare Claims",
+          "url": "https://clinicaltrials.gov/study/NCT06659744",
+          "bucket_label": "2024",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2024-10-24"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06874751",
+          "title": "Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity in the Real World",
+          "url": "https://clinicaltrials.gov/study/NCT06874751",
+          "bucket_label": "2024",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2024-12-06"
+            }
+          ]
+        }
+      ]
+    },
+    "d11": {
+      "total": 130,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2025-01-01%2C2025-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07188545",
+          "title": "Using Secondary Data to Evaluate Sex-based Heterogeneity of GLP-1 Agonists and SGLT2 Inhibitors on Cardiovascular-Kidney-Metabolic Health (CKMH) Outcomes in Real-world Settings (DASH-CKMH)",
+          "url": "https://clinicaltrials.gov/study/NCT07188545",
+          "bucket_label": "2025",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2025-09-15"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07141914",
+          "title": "A Master Protocol for Semaglutide Effects on Cardiovascular and Obesity-related Outcomes in People With Overweight or Obesity in the Real World",
+          "url": "https://clinicaltrials.gov/study/NCT07141914",
+          "bucket_label": "2025",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2025-08-29"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06914102",
+          "title": "Emulation of the STEP-HFpEF DM Heart Failure Trial in Healthcare Claims Data",
+          "url": "https://clinicaltrials.gov/study/NCT06914102",
+          "bucket_label": "2025",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2025-01-14"
+            }
+          ]
+        }
+      ]
+    },
+    "d12": {
+      "total": 158,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2026-01-01%2C2026-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07627074",
+          "title": "Weight Loss in Adults Using Semaglutide (Real-world Study)",
+          "url": "https://clinicaltrials.gov/study/NCT07627074",
+          "bucket_label": "2026",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2026-05-12"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07640139",
+          "title": "Estimating the Impact of Obesity Medications on Clinical and Economic Outcomes",
+          "url": "https://clinicaltrials.gov/study/NCT07640139",
+          "bucket_label": "2026",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07619495",
+          "title": "Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk",
+          "url": "https://clinicaltrials.gov/study/NCT07619495",
+          "bucket_label": "2026",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2026-01-20"
+            }
+          ]
+        }
+      ]
+    },
+    "d13": {
+      "total": 11,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2027-01-01%2C2027-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07858331",
+          "title": "Patient-centred Intervention With Virtual Support for Obesity and Kidney Transplant Access",
+          "url": "https://clinicaltrials.gov/study/NCT07858331",
+          "bucket_label": "2027",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2027-01-01"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05714683",
+          "title": "Regulatory Post Marketing Surveillance (rPMS) Study of Rybelsus (Oral Semaglutide) to Evaluate Safety and Effectiveness in Patients With Type 2 Diabetes Mellitus in Routine Clinical Practice in Korea",
+          "url": "https://clinicaltrials.gov/study/NCT05714683",
+          "bucket_label": "2027",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2027-01-31"
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07711548",
+          "title": "Can Two Dietary Interventions Maintain Weight Loss for 12 Months After GLP-1 Therapy in Adults With Overweight/Obesity?",
+          "url": "https://clinicaltrials.gov/study/NCT07711548",
+          "bucket_label": "2027",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2027-03"
+            }
+          ]
+        }
+      ]
+    },
+    "d14": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?intr=semaglutide&term=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D+AND+AREA%5BStartDate%5DRANGE%5B2028-01-01%2C2028-12-31%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07586150",
+          "title": "Personalized Pharmaco-Lifestyle Interventions for Severe Mental Illnesses (LIFETRAIN)",
+          "url": "https://clinicaltrials.gov/study/NCT07586150",
+          "bucket_label": "2028",
+          "evidence": [
+            {
+              "field": "protocolSection.statusModule.startDateStruct.date",
+              "value": "2028-10"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meta": {
+    "plan": {
+      "mode": "aggregate",
+      "filters": {
+        "condition": null,
+        "drug": "semaglutide",
+        "sponsor": null,
+        "country": null,
+        "status": null,
+        "phase": null,
+        "start_year_min": 2015,
+        "start_year_max": null
+      },
+      "series": [
+        {
+          "label": "All",
+          "filters": {
+            "condition": null,
+            "drug": null,
+            "sponsor": null,
+            "country": null,
+            "status": null,
+            "phase": null,
+            "start_year_min": null,
+            "start_year_max": null
+          }
+        }
+      ],
+      "group_by": [
+        "start_year"
+      ],
+      "bin": null,
+      "x_field": null,
+      "y_field": null,
+      "start_field": null,
+      "end_field": null,
+      "network": null,
+      "sort": "natural",
+      "limit": 50,
+      "chart_type": null,
+      "search_terms": {
+        "drug": [],
+        "condition": [],
+        "sponsor": []
+      },
+      "interpretation": "Count semaglutide trials by start year from 2015 onward.",
+      "unsupported_reason": null,
+      "alternatives": []
+    },
+    "interpretation": "Count semaglutide trials by start year from 2015 onward.",
+    "filters_applied": {
+      "All": {
+        "drug": "semaglutide",
+        "start_year_min": 2015
+      }
+    },
+    "search_terms": {},
+    "sort": "natural",
+    "time_granularity": "year",
+    "units": {
+      "y": "trials"
+    },
+    "trials_matched": 738,
+    "trials_used": 738,
+    "tier": 1,
+    "chart_overridden": false,
+    "pruning": null,
+    "notes": [
+      "140 trials have a planned start date that ClinicalTrials.gov marks as estimated, not actual; they are counted in the planned year."
+    ],
+    "source": "clinicaltrials.gov",
+    "data_timestamp": "2026-10-09T09:00:05",
+    "retrieved_at": "2026-10-12T17:01:43+00:00",
+    "suggestions": [],
+    "trace": [
+      {
+        "step": "plan",
+        "ms": 3825.6,
+        "model": "gpt-5.4-mini",
+        "retries": 0,
+        "llm_calls": 1,
+        "tool_calls": [],
+        "input_tokens": 4918,
+        "output_tokens": 265
+      },
+      {
+        "step": "validate",
+        "ms": 0.2,
+        "errors": []
+      },
+      {
+        "step": "fetch",
+        "ms": 1027.8,
+        "api_calls": 3,
+        "cache_hits": 0,
+        "tier": 1,
+        "trials_matched": 738,
+        "series": [
+          {
+            "label": "All",
+            "trials_matched": 738,
+            "tier": 1,
+            "error": null
+          }
+        ]
+      },
+      {
+        "step": "aggregate",
+        "ms": 1.7,
+        "data_points": 14,
+        "trials_used": 738,
+        "dropped": {}
+      },
+      {
+        "step": "cite",
+        "ms": 3.3,
+        "data_points": 14,
+        "trials_cited": 40,
+        "from_sample": false
+      },
+      {
+        "step": "build",
+        "ms": 0.1,
+        "chart": "time_series",
+        "chart_overridden": false
+      }
+    ]
+  },
+  "error": null
+}

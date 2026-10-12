@@ -1,0 +1,21 @@
+flowchart TD
+    L["LLM output"]:::llm
+    G1["<b>Gate 1: strict JSON Schema</b><br/>Only known keys and values<br/>app/planner/planner.py"]:::code
+    G2{{"<b>Gate 2: validator</b><br/>Fixed lists of fields and values<br/>app/validator.py"}}:::code
+    G3["<b>Gate 3: request fields have priority</b><br/>app/pipeline.py"]:::code
+    G4["<b>Gate 4: no new numbers in the text</b><br/>app/pipeline.py"]:::code
+    OK(["The plan runs"]):::good
+    RT["One retry<br/>with the error list"]:::llm
+    NO(["unsupported"]):::stop
+    L --> G1 --> G2
+    G2 -->|valid| G3 --> G4 --> OK
+    G2 -->|"not valid (first time)"| RT --> G1
+    G2 -->|"not valid (second time)"| NO
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

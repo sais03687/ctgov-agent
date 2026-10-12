@@ -1,0 +1,370 @@
+# Evaluation questions for the planner.
+#
+# Each question lists PROPERTIES the plan must have, not the exact plan: the wording of labels and
+# interpretations is free, the structure is not. None of these questions was used while writing
+# or adjusting the prompt; the prompt's own examples and the questions tried during development
+# use other drugs and conditions.
+#
+# expect:
+#   status       plan | unsupported
+#   mode         aggregate | histogram | points | network
+#   group_by     the fields, in any order
+#   series       how many series
+#   filters      plan-wide filters. Text matches if the expected text is contained in the plan's
+#                value, ignoring case; lists and numbers must be equal. A filter the plan has but
+#                the question did not ask for fails the question (P4: no invented filters).
+#   series_terms for comparisons: filter key -> one term per series
+#   network      the two node fields, in any order
+#   bin_field / x_y / start_end   the fields of histogram / scatter / timeline plans
+#   chart        chart types that are acceptable for this plan
+#   sort, limit  only where the question fixes them
+
+# ---- the nine query classes of the assignment's appendix -----------------------------------------
+
+- id: A1
+  group: appendix
+  class: time trend for a drug
+  query: How has the number of trials for adalimumab changed per year since 2012?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [start_year]
+    series: 1
+    filters: {drug: adalimumab, start_year_min: 2012}
+    chart: [time_series]
+
+- id: A2
+  group: appendix
+  class: time trend for a condition
+  query: How many trials started each year for multiple sclerosis?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [start_year]
+    series: 1
+    filters: {condition: multiple sclerosis}
+    chart: [time_series]
+
+- id: A3
+  group: appendix
+  class: distribution across phases
+  query: How are psoriasis trials distributed across phases?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [phase]
+    series: 1
+    filters: {condition: psoriasis}
+    chart: [bar_chart]
+
+- id: A4
+  group: appendix
+  class: most common intervention types
+  query: What are the most common intervention types for stroke trials?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [intervention_type]
+    series: 1
+    filters: {condition: stroke}
+    chart: [bar_chart]
+    sort: desc
+
+- id: A5
+  group: appendix
+  class: compare phases for drug A vs drug B
+  query: Compare phases for trials involving apixaban vs rivaroxaban.
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [phase]
+    series: 2
+    filters: {}
+    series_terms: {drug: [apixaban, rivaroxaban]}
+    chart: [grouped_bar_chart]
+
+- id: A6
+  group: appendix
+  class: compare sponsor categories across two conditions
+  query: Compare sponsor categories across asthma and COPD.
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [sponsor_class]
+    series: 2
+    filters: {}
+    series_terms: {condition: [asthma, [copd, chronic obstructive]]}
+    chart: [grouped_bar_chart]
+
+- id: A7
+  group: appendix
+  class: countries with the most recruiting trials
+  query: Which countries have the most recruiting trials for tuberculosis?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [country]
+    series: 1
+    filters: {condition: tuberculosis, status: [RECRUITING]}
+    chart: [bar_chart]
+    sort: desc
+
+- id: A8
+  group: appendix
+  class: sponsor-drug network
+  query: Show a network of sponsors and drugs for ovarian cancer trials.
+  expect:
+    status: plan
+    mode: network
+    series: 1
+    filters: {condition: ovarian cancer}
+    network: [sponsor, intervention]
+    chart: [network_graph]
+
+- id: A9
+  group: appendix
+  class: drug-drug co-occurrence network
+  query: Which drugs frequently co-occur in combination studies for HIV?
+  expect:
+    status: plan
+    mode: network
+    series: 1
+    filters: {condition: hiv}
+    network: [intervention, intervention]
+    chart: [network_graph]
+
+# ---- beyond the appendix --------------------------------------------------------------------------
+
+- id: B1
+  group: beyond
+  class: distribution of a number (histogram)
+  query: What is the typical size of Parkinson's disease trials?
+  expect:
+    status: plan
+    mode: histogram
+    series: 1
+    filters: {condition: parkinson}
+    bin_field: enrollment
+    chart: [histogram]
+
+- id: B2
+  group: beyond
+  class: relationship between two numbers (scatter)
+  query: Is there a relationship between enrollment and how long trials last for migraine?
+  expect:
+    status: plan
+    mode: points
+    series: 1
+    filters: {condition: migraine}
+    x_y: [enrollment, duration_months]
+    chart: [scatter_plot]
+
+- id: B3
+  group: beyond
+  class: per-trial timeline (gantt)
+  query: Show a timeline of the earliest tocilizumab trials.
+  expect:
+    status: plan
+    mode: points
+    series: 1
+    filters: {drug: tocilizumab}
+    start_end: [start_date, completion_date]
+    chart: [gantt]
+    # "earliest" must not become "most recent". For a timeline both of these give earliest-first;
+    # the first version of this file demanded `natural` only, which failed a correct plan.
+    sort: [natural, asc]
+
+- id: B4
+  group: beyond
+  class: breakdown by two fields
+  query: Break down hepatitis C trials by phase and sponsor category.
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [phase, sponsor_class]
+    series: 1
+    filters: {condition: hepatitis c}
+    chart: [stacked_bar_chart, heatmap]
+
+- id: B5
+  group: beyond
+  class: sponsor and country filters, yes/no field
+  query: For Novartis trials in Japan, how many have posted results and how many have not?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [has_results]
+    series: 1
+    filters: {sponsor: novartis, country: japan}
+    chart: [bar_chart]
+
+- id: B6
+  group: beyond
+  class: ranking with phase and year filters and a limit
+  query: Who are the top 5 sponsors of phase 3 depression trials started since 2018?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [sponsor]
+    series: 1
+    filters: {condition: depress, phase: [PHASE3], start_year_min: 2018}
+    chart: [bar_chart]
+    sort: desc
+    limit: 5
+
+- id: B7
+  group: beyond
+  class: misspelled drug name
+  query: What is the status breakdown of trastuzumub trials?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [status]
+    series: 1
+    filters: {drug: trastuzumab}
+    chart: [bar_chart]
+
+- id: B8
+  group: beyond
+  class: comparison over time
+  query: Compare how many trials started per year for dupilumab vs omalizumab since 2016.
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [start_year]
+    series: 2
+    filters: {start_year_min: 2016}
+    series_terms: {drug: [dupilumab, omalizumab]}
+    chart: [time_series]
+
+# ---- questions that must be refused ----------------------------------------------------------------
+
+- id: U1
+  group: unsupported
+  class: too vague
+  query: What's going on with clinical research lately?
+  expect:
+    status: unsupported
+
+- id: U2
+  group: unsupported
+  class: asks about efficacy
+  query: Is metformin better than insulin for type 2 diabetes?
+  expect:
+    status: unsupported
+
+- id: U3
+  group: unsupported
+  class: asks for something trial records do not hold
+  query: What is the average cost per patient of oncology trials?
+  expect:
+    status: unsupported
+
+# ---- harder phrasing -------------------------------------------------------------------------------
+# Added after the first full run, in which all three models passed all 20 questions above, to find
+# where they differ. Written before any model was run on them.
+
+- id: H1
+  group: harder
+  class: categories named in the question are data buckets, not series
+  query: Are industry or academic sponsors running more lupus trials?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [sponsor_class]
+    series: 1
+    filters: {condition: lupus}
+    chart: [bar_chart]
+
+- id: H2
+  group: harder
+  class: four filters at once
+  query: Between 2010 and 2015, which phase had the most breast cancer trials in Germany?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [phase]
+    series: 1
+    filters: {condition: breast cancer, country: germany, start_year_min: 2010, start_year_max: 2015}
+    chart: [bar_chart]
+
+- id: H3
+  group: harder
+  class: three series, indirect wording
+  query: "Pembrolizumab, nivolumab and atezolizumab: how do their yearly trial starts compare?"
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [start_year]
+    series: 3
+    filters: {}
+    series_terms: {drug: [pembrolizumab, nivolumab, atezolizumab]}
+    chart: [time_series]
+
+- id: H4
+  group: harder
+  class: sponsor as the filter, condition as the breakdown
+  query: Which conditions does Pfizer study most?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [condition]
+    series: 1
+    filters: {sponsor: pfizer}
+    chart: [bar_chart]
+    sort: desc
+
+- id: H5
+  group: harder
+  class: status implied by wording
+  query: Do finished ivacaftor trials usually have their results posted?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [has_results]
+    series: 1
+    filters: {drug: ivacaftor, status: [COMPLETED]}
+    chart: [bar_chart]
+
+- id: H6
+  group: harder
+  class: network of two non-drug fields
+  query: Map which sponsors run sickle cell disease trials in which countries.
+  expect:
+    status: plan
+    mode: network
+    series: 1
+    filters: {condition: sickle cell}
+    network: [sponsor, country]
+    chart: [network_graph]
+
+- id: H7
+  group: harder
+  class: misspelled brand name
+  query: How many Keytrudda trials are there in each phase?
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [phase]
+    series: 1
+    filters: {drug: [keytruda, pembrolizumab]}
+    chart: [bar_chart]
+
+- id: H8
+  group: harder
+  class: asks for a prediction
+  query: Predict how many Alzheimer's trials will start next year.
+  expect:
+    status: unsupported
+
+- id: H9
+  group: harder
+  class: a chart type that does not exist
+  query: Give me a pie chart of leukemia trials by status.
+  expect:
+    status: plan
+    mode: aggregate
+    group_by: [status]
+    series: 1
+    filters: {condition: leukemia}
+    chart: [bar_chart]

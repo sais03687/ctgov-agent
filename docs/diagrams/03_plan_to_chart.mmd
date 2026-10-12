@@ -1,0 +1,20 @@
+flowchart LR
+    M{{"<b>Plan mode</b><br/>app/aggregate/"}}:::code
+    G{{"<b>How many groups?</b><br/>app/spec_builder.py"}}:::code
+    M -->|aggregate| G
+    G -->|"1 field"| BAR["bar_chart"]:::good
+    G -->|"1 field = year"| TS["time_series"]:::good
+    G -->|"2 to 5 series"| GB["grouped_bar_chart"]:::good
+    G -->|"2 fields"| ST["stacked_bar_chart<br/>or heatmap"]:::good
+    M -->|histogram| H["histogram"]:::good
+    M -->|"points: 2 numbers"| SC["scatter_plot"]:::good
+    M -->|"points: 2 dates"| GA["gantt"]:::good
+    M -->|network| NW["network_graph"]:::good
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

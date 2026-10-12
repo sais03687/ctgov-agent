@@ -1,0 +1,29 @@
+flowchart TD
+    U1(["<b>1. The user asks a question</b>"]):::user
+    P["<b>2. The planner writes a query plan</b><br/>LLM · app/planner/"]:::llm
+    T["<b>Optional check</b><br/>How many trials have this name?<br/>Maximum 3 times · app/planner/tools.py"]:::registry
+    V["<b>3. The validator examines the plan</b><br/>Code · app/validator.py"]:::code
+    R["<b>4. The registry client gets the trials</b><br/>Code · app/ctgov/"]:::code
+    A["<b>5. The aggregator counts the trials</b><br/>Code · app/aggregate/"]:::code
+    C["<b>6. The citation step lists the trials for each number</b><br/>Code · app/citations.py"]:::code
+    B["<b>7. The spec builder makes the chart</b><br/>Code · app/spec_builder.py"]:::code
+    U2(["<b>8. The user gets the chart, the citations, and the notes</b>"]):::good
+    X(["<b>unsupported</b><br/>with the cause and other questions"]):::stop
+
+    U1 -->|"question + filters"| P
+    P -->|"query plan"| V
+    V -->|"valid plan"| R
+    R -->|"trials with raw values"| A
+    A -->|"counts + trial IDs"| C
+    C -->|"counts + citations"| B
+    B -->|"chart specification"| U2
+    P <-.->|"name → exact count"| T
+    V -.->|"not valid: send the errors<br/>(one retry only)"| P
+    V -.->|"not valid 2 times"| X
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px

@@ -1,0 +1,18 @@
+flowchart TD
+    Q(["User question"]):::user
+    L["<b>LLM: writes a query plan</b><br/>app/planner/"]:::llm
+    V["<b>Code: examines the plan</b><br/>app/validator.py"]:::code
+    F["<b>Code: gets the trials</b><br/>app/ctgov/"]:::code
+    A["<b>Code: counts the trials</b><br/>app/aggregate/"]:::code
+    C["<b>Code: makes the citations</b><br/>app/citations.py"]:::code
+    S["<b>Code: selects and builds the chart</b><br/>app/spec_builder.py"]:::code
+    R(["Chart specification + citations"]):::good
+    Q --> L --> V --> F --> A --> C --> S --> R
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

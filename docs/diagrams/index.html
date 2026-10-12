@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design diagrams</title>
+<style>
+  body { font: 17px/1.5 "Segoe UI", Arial, sans-serif; color: #111827; background: #f9fafb; margin: 0; padding: 24px 16px; }
+  main { max-width: 980px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  section { background: #fff; border: 1px solid #d1d5db; border-radius: 10px; padding: 18px 20px; margin: 18px 0; }
+  h2 { font-size: 21px; margin: 0 0 6px; }
+  img { max-width: 100%; max-height: 760px; height: auto; display: block; margin: 12px auto; }
+  code { background: #eef2ff; border-radius: 4px; padding: 1px 6px; margin-right: 4px; font-size: 15px; }
+  .files, .how { margin: 4px 0; color: #374151; }
+  .legend span { display: inline-block; padding: 2px 10px; border-radius: 4px; margin: 0 6px 6px 0; border: 2px solid; font-size: 15px; }
+</style>
+<main>
+<h1>ClinicalTrials.gov agent: design diagrams</h1>
+<p class="legend">
+  <span style="background:#ffedd5;border-color:#c2410c">LLM step</span>
+  <span style="background:#dbeafe;border-color:#1d4ed8">Code step</span>
+  <span style="background:#dcfce7;border-color:#15803d">Registry data or good result</span>
+  <span style="background:#fee2e2;border-color:#b91c1c">Refusal or failure</span>
+  <span style="background:#f3f4f6;border-color:#6b7280">User, or removed item</span>
+</p>
+<section><h2>Diagram 1. Who does what</h2><p class="files">Files: <code>app/planner/</code> <code>app/validator.py</code> <code>app/ctgov/</code> <code>app/aggregate/</code> <code>app/citations.py</code> <code>app/spec_builder.py</code></p><img src="01_who_does_what.png" alt="Diagram 1. Who does what"><p class="how">How to read it: Read from top to bottom. The LLM does one step (orange). Code does all other steps (blue).</p></section>
+<section><h2>Diagram 2. The life of one request</h2><p class="files">Files: <code>app/pipeline.py</code> <code>app/planner/</code> <code>app/validator.py</code> <code>app/ctgov/</code> <code>app/aggregate/</code> <code>app/citations.py</code> <code>app/spec_builder.py</code></p><img src="02_one_request.png" alt="Diagram 2. The life of one request"><p class="how">How to read it: Read the numbers 1 to 8 from top to bottom. The text on each arrow is the data that goes to the next step. A dotted arrow is a check or a retry.</p></section>
+<section><h2>Diagram 3. From the plan to the chart type</h2><p class="files">Files: <code>app/aggregate/</code> <code>app/spec_builder.py</code></p><img src="03_plan_to_chart.png" alt="Diagram 3. From the plan to the chart type"><p class="how">How to read it: Start at &quot;Plan mode&quot; on the left. Follow one arrow to find the chart type (green).</p></section>
+<section><h2>Diagram 4. How many trials can the service read?</h2><p class="files">Files: <code>app/ctgov/client.py</code> <code>app/pipeline.py</code></p><img src="04_size_decision.png" alt="Diagram 4. How many trials can the service read?"><p class="how">How to read it: Start on the left. Answer each question with yes or no. Green is an answer. Red is a refusal with offers.</p></section>
+<section><h2>Diagram 5. The gates that the LLM output must pass</h2><p class="files">Files: <code>app/planner/planner.py</code> <code>app/validator.py</code> <code>app/pipeline.py</code></p><img src="05_llm_gates.png" alt="Diagram 5. The gates that the LLM output must pass"><p class="how">How to read it: Read from top to bottom. The plan runs only after it passes all four gates.</p></section>
+<section><h2>Diagram 6. How a network removes items that are not drugs</h2><p class="files">Files: <code>app/aggregate/network.py</code> <code>app/aggregate/labels.py</code></p><img src="06_network_layers.png" alt="Diagram 6. How a network removes items that are not drugs"><p class="how">How to read it: Read from top to bottom. Each layer removes some names (gray boxes). The counts are from the glioblastoma example.</p></section>
+<section><h2>Diagram 7. From a bar to the trial record</h2><p class="files">Files: <code>app/citations.py</code> <code>app/ctgov/normalize.py</code></p><img src="07_citation_path.png" alt="Diagram 7. From a bar to the trial record"><p class="how">How to read it: Start at the bar on the left. Each arrow goes one step nearer to the source record.</p></section>
+<section><h2>Diagram 8. From a failure to the next step</h2><p class="files">Files: <code>app/pipeline.py</code> <code>app/static/app.js</code></p><img src="08_failure_next_step.png" alt="Diagram 8. From a failure to the next step"><p class="how">How to read it: Read from top to bottom. Each result that is not a chart ends with a next step for the user.</p></section>
+</main>
+</html>

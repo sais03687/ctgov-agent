@@ -1,0 +1,24 @@
+flowchart LR
+    C["<b>Ask ClinicalTrials.gov<br/>for the number of trials</b><br/>app/ctgov/client.py"]:::registry
+    Z{{"0 trials?"}}:::code
+    S{{"20,000 or fewer?"}}:::code
+    F{{"Count by one<br/>fixed-value field?"}}:::code
+    W["<b>ok</b><br/>and offer wider questions"]:::good
+    T1["<b>Tier 1</b><br/>read all trials"]:::good
+    T2["<b>Tier 2</b><br/>exact count for each bucket"]:::good
+    U["<b>unsupported</b><br/>and offer narrower questions"]:::stop
+    C --> Z
+    Z -->|yes| W
+    Z -->|no| S
+    S -->|yes| T1
+    S -->|no| F
+    F -->|yes| T2
+    F -->|no| U
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

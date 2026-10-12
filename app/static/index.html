@@ -1,0 +1,167 @@
+<!doctype html>
+<!-- TASK: The structure of the demo page: the question box, the filters, the message, and the result.
+     GRADING: Optional demo. A failure message is the first item on the page. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinical trial explorer</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">Clinical trial explorer</a>
+    <button id="theme" class="ghost" type="button" aria-label="Switch between light and dark colours">Light / dark</button>
+  </header>
+
+  <main>
+    <section id="message" class="card" hidden aria-live="assertive"></section>
+
+    <section class="hero">
+      <h1>Ask a question about clinical trials</h1>
+      <p class="lead">You get a chart built from live ClinicalTrials.gov data. Click any part of the chart to see the actual trials behind it.</p>
+
+      <form id="ask" autocomplete="off">
+        <div class="ask-row">
+          <input id="query" type="text" minlength="3" maxlength="500" required
+                 placeholder="For example: Which countries have the most recruiting trials for melanoma?" aria-label="Your question">
+          <button id="submit" type="submit">Ask</button>
+        </div>
+        <div id="active-filters" class="pills" aria-live="polite"></div>
+
+        <details id="filters">
+          <summary>Narrow it down <span class="hint">optional — these apply whatever the question says</span></summary>
+          <div class="filter-grid">
+            <label>Drug <span class="hint">several, separated by commas, are compared</span>
+              <input name="drug_name" type="text" placeholder="e.g. pembrolizumab"></label>
+            <label>Condition <span class="hint">several, separated by commas, are compared</span>
+              <input name="condition" type="text" placeholder="e.g. lung cancer"></label>
+            <label>Sponsor <input name="sponsor" type="text" placeholder="e.g. Pfizer"></label>
+            <label>Country <input name="country" type="text" placeholder="e.g. Germany"></label>
+            <label>Started from year <input name="start_year" type="number" min="1990" max="2035" placeholder="e.g. 2015"></label>
+            <label>Started up to year <input name="end_year" type="number" min="1990" max="2035" placeholder="e.g. 2024"></label>
+          </div>
+          <div class="pick">
+            <span class="pick-label">Status</span>
+            <div class="toggles" data-field="status">
+              <button type="button" data-value="RECRUITING">Recruiting</button>
+              <button type="button" data-value="NOT_YET_RECRUITING">Not yet recruiting</button>
+              <button type="button" data-value="ACTIVE_NOT_RECRUITING">Active, not recruiting</button>
+              <button type="button" data-value="COMPLETED">Completed</button>
+              <button type="button" data-value="TERMINATED">Terminated</button>
+              <button type="button" data-value="WITHDRAWN">Withdrawn</button>
+              <button type="button" data-value="SUSPENDED">Suspended</button>
+            </div>
+          </div>
+          <div class="pick">
+            <span class="pick-label">Phase</span>
+            <div class="toggles" data-field="trial_phase">
+              <button type="button" data-value="EARLY_PHASE1">Early Phase 1</button>
+              <button type="button" data-value="PHASE1">Phase 1</button>
+              <button type="button" data-value="PHASE2">Phase 2</button>
+              <button type="button" data-value="PHASE3">Phase 3</button>
+              <button type="button" data-value="PHASE4">Phase 4</button>
+              <button type="button" data-value="NA">Not applicable</button>
+            </div>
+          </div>
+          <div class="filter-grid">
+            <label>Chart I would like
+              <select name="chart_type">
+                <option value="">Choose the best one for me</option>
+                <option value="bar_chart">Bar chart</option><option value="grouped_bar_chart">Grouped bar chart</option>
+                <option value="stacked_bar_chart">Stacked bar chart</option><option value="heatmap">Heatmap</option>
+                <option value="time_series">Line over time</option><option value="histogram">Histogram</option>
+                <option value="scatter_plot">Scatter plot</option><option value="gantt">Timeline of trials</option>
+                <option value="network_graph">Network</option>
+              </select>
+            </label>
+            <label>Trials to list for each value
+              <select name="max_citations">
+                <option value="3">3</option><option value="5" selected>5</option><option value="10">10</option><option value="25">25</option>
+              </select>
+            </label>
+          </div>
+          <button type="button" id="clear-filters" class="ghost">Clear all</button>
+        </details>
+      </form>
+    </section>
+
+    <section id="loading" class="card loading" hidden aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <div>
+        <p id="loading-text"><b>Working on it…</b> understanding your question and reading ClinicalTrials.gov.</p>
+        <p class="sub" id="loading-sub">Most answers take 3 to 10 seconds.</p>
+      </div>
+    </section>
+
+    <section id="start">
+      <ol class="how">
+        <li><b>Ask</b> in your own words, or pick an example below.</li>
+        <li><b>Read the chart.</b> Hover over it for exact numbers.</li>
+        <li><b>Click any bar, point or line</b> to see the real trials it counts.</li>
+      </ol>
+      <h2 class="section-title">Not sure what to ask? Try one of these</h2>
+      <div id="examples" class="example-grid"></div>
+      <div id="recent-wrap" hidden>
+        <h2 class="section-title">Your recent questions</h2>
+        <div id="recent" class="chips"></div>
+      </div>
+    </section>
+
+    <section id="result" hidden>
+      <div class="answer-head">
+        <div>
+          <h2 id="title"></h2>
+          <p id="headline" class="headline"></p>
+        </div>
+        <button id="new-question" class="ghost" type="button">Ask something else</button>
+      </div>
+      <div id="tiles" class="tiles"></div>
+
+      <div class="layout">
+        <div class="card main">
+          <div class="card-bar">
+            <div class="seg" role="group" aria-label="How to show the data">
+              <button id="view-chart" type="button" class="on">Chart</button>
+              <button id="view-table" type="button">Table</button>
+            </div>
+            <span class="hint" id="chart-tip">Hover for exact numbers · click any part to see its trials</span>
+          </div>
+          <div id="legend" class="legend"></div>
+          <div id="chart" class="chart"></div>
+          <div id="table" class="table-wrap" hidden></div>
+          <p id="pruning" class="sub"></p>
+        </div>
+
+        <aside class="card side" id="citations">
+          <h3>The trials behind it</h3>
+          <p class="sub" id="citation-hint">Click any part of the chart to list the trials it counts.</p>
+          <div id="citation-body"></div>
+        </aside>
+      </div>
+
+      <div class="card" id="notes-card">
+        <h3>Good to know about this chart</h3>
+        <ul id="notes" class="notes"></ul>
+      </div>
+
+      <div class="card" id="understood">
+        <h3>How your question was understood</h3>
+        <p id="interpretation"></p>
+        <div id="searched" class="pills"></div>
+      </div>
+
+      <details class="card dev">
+        <summary>Details for developers <span class="hint">steps taken, timings, and the raw response</span></summary>
+        <h4>Steps</h4>
+        <div id="trace"></div>
+        <h4>Request and response (JSON)</h4>
+        <pre id="raw"></pre>
+      </details>
+    </section>
+  </main>
+
+  <div id="tooltip" role="status" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+flowchart TD
+    Q(["Question"]):::user
+    X{{"<b>What is the result?</b><br/>app/pipeline.py"}}:::code
+    OK(["Show the chart"]):::good
+    A["No subject, or the answer<br/>is not in trial records"]:::stop
+    N["Too many trials"]:::stop
+    W["Zero trials"]:::stop
+    E["The registry or the LLM failed"]:::stop
+    OA["Offer different questions"]:::code
+    ON["Offer narrower versions"]:::code
+    OW["Offer wider versions"]:::code
+    CH["<b>Code examines each offer<br/>and counts its trials</b><br/>app/pipeline.py"]:::code
+    UI(["<b>Cause at the top of the page<br/>+ one-click offers</b><br/>app/static/app.js"]):::good
+    TR(["Message + Try again"]):::good
+    Q --> X
+    X --> OK
+    X --> A --> OA --> CH
+    X --> N --> ON --> CH
+    X --> W --> OW --> CH
+    X --> E --> TR
+    CH --> UI
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

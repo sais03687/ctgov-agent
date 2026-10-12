@@ -1,0 +1,1900 @@
+{
+ "run_at": "2026-10-12T02:58:00+00:00",
+ "reasoning_effort": "low",
+ "summary": {
+  "model": "gpt-5.4-nano",
+  "passed": 29,
+  "of": 29,
+  "groups": {
+   "appendix": {
+    "passed": 9,
+    "of": 9
+   },
+   "beyond": {
+    "passed": 8,
+    "of": 8
+   },
+   "unsupported": {
+    "passed": 3,
+    "of": 3
+   },
+   "harder": {
+    "passed": 9,
+    "of": 9
+   }
+  },
+  "seconds_median": 2.56,
+  "seconds_max": 7.19,
+  "llm_calls": 34,
+  "tool_calls": 8,
+  "retries": 0,
+  "input_tokens": 154582,
+  "output_tokens": 9024,
+  "estimated_cost_usd": 0.0422,
+  "estimated_cost_per_question_usd": 0.00146,
+  "failed": []
+ },
+ "results": [
+  {
+   "id": "A1",
+   "group": "appendix",
+   "class": "time trend for a drug",
+   "query": "How has the number of trials for adalimumab changed per year since 2012?",
+   "passed": true,
+   "seconds": 7.19,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4523,
+   "output_tokens": 235,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"start_year\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter drug",
+     "ok": true,
+     "got": "\"adalimumab\""
+    },
+    {
+     "check": "filter start_year_min",
+     "ok": true,
+     "got": "2012"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"time_series\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "drug": "adalimumab",
+     "start_year_min": 2012
+    },
+    "group_by": [
+     "start_year"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "chart_type": "time_series",
+    "interpretation": "Count adalimumab trials by start year from 2012 onward to show how the number of trials changes over time."
+   }
+  },
+  {
+   "id": "A2",
+   "group": "appendix",
+   "class": "time trend for a condition",
+   "query": "How many trials started each year for multiple sclerosis?",
+   "passed": true,
+   "seconds": 2.1,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4514,
+   "output_tokens": 234,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"start_year\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"multiple sclerosis\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"time_series\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "multiple sclerosis"
+    },
+    "group_by": [
+     "start_year"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Count multiple sclerosis trials by their start year and show the number that started in each year."
+   }
+  },
+  {
+   "id": "A3",
+   "group": "appendix",
+   "class": "distribution across phases",
+   "query": "How are psoriasis trials distributed across phases?",
+   "passed": true,
+   "seconds": 2.35,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4512,
+   "output_tokens": 235,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"phase\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"psoriasis\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "psoriasis"
+    },
+    "group_by": [
+     "phase"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Count psoriasis trials by ClinicalTrials.gov phase to show how the trials are distributed across phases."
+   }
+  },
+  {
+   "id": "A4",
+   "group": "appendix",
+   "class": "most common intervention types",
+   "query": "What are the most common intervention types for stroke trials?",
+   "passed": true,
+   "seconds": 2.13,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4515,
+   "output_tokens": 254,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"intervention_type\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"stroke\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "sort",
+     "ok": true,
+     "got": "\"desc\""
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "stroke"
+    },
+    "group_by": [
+     "intervention_type"
+    ],
+    "interpretation": "Count stroke trials by intervention type and show the most common intervention types."
+   }
+  },
+  {
+   "id": "A5",
+   "group": "appendix",
+   "class": "compare phases for drug A vs drug B",
+   "query": "Compare phases for trials involving apixaban vs rivaroxaban.",
+   "passed": true,
+   "seconds": 2.27,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4518,
+   "output_tokens": 272,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"phase\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "2"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "series by drug",
+     "ok": true,
+     "got": "[\"apixaban\", \"rivaroxaban\"]"
+    },
+    {
+     "check": "no series filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"grouped_bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "series": [
+     {
+      "label": "Apixaban",
+      "filters": {
+       "drug": "apixaban"
+      }
+     },
+     {
+      "label": "Rivaroxaban",
+      "filters": {
+       "drug": "rivaroxaban"
+      }
+     }
+    ],
+    "group_by": [
+     "phase"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Count and compare the number of trials by ClinicalTrials.gov phase for apixaban versus rivaroxaban."
+   }
+  },
+  {
+   "id": "A6",
+   "group": "appendix",
+   "class": "compare sponsor categories across two conditions",
+   "query": "Compare sponsor categories across asthma and COPD.",
+   "passed": true,
+   "seconds": 2.25,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4512,
+   "output_tokens": 280,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"sponsor_class\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "2"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "series by condition",
+     "ok": true,
+     "got": "[\"asthma\", \"COPD\"]"
+    },
+    {
+     "check": "no series filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"grouped_bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "series": [
+     {
+      "label": "Asthma",
+      "filters": {
+       "condition": "asthma"
+      }
+     },
+     {
+      "label": "COPD",
+      "filters": {
+       "condition": "COPD"
+      }
+     }
+    ],
+    "group_by": [
+     "sponsor_class"
+    ],
+    "interpretation": "Count clinical trials and compare how their lead sponsor categories are distributed for asthma versus COPD."
+   }
+  },
+  {
+   "id": "A7",
+   "group": "appendix",
+   "class": "countries with the most recruiting trials",
+   "query": "Which countries have the most recruiting trials for tuberculosis?",
+   "passed": true,
+   "seconds": 2.15,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4514,
+   "output_tokens": 248,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"country\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"tuberculosis\""
+    },
+    {
+     "check": "filter status",
+     "ok": true,
+     "got": "[\"RECRUITING\"]"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "sort",
+     "ok": true,
+     "got": "\"desc\""
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "tuberculosis",
+     "status": [
+      "RECRUITING"
+     ]
+    },
+    "group_by": [
+     "country"
+    ],
+    "interpretation": "Count recruiting tuberculosis trials per country and return the countries with the most."
+   }
+  },
+  {
+   "id": "A8",
+   "group": "appendix",
+   "class": "sponsor-drug network",
+   "query": "Show a network of sponsors and drugs for ovarian cancer trials.",
+   "passed": true,
+   "seconds": 2.07,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4516,
+   "output_tokens": 240,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"network\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"ovarian cancer\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "network fields",
+     "ok": true,
+     "got": "[\"sponsor\", \"intervention\"]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"network_graph\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "network",
+    "filters": {
+     "condition": "ovarian cancer"
+    },
+    "network": {
+     "source_field": "sponsor",
+     "target_field": "intervention"
+    },
+    "limit": 50,
+    "interpretation": "Show a network linking each lead sponsor to the drugs (interventions) used in ovarian cancer trials."
+   }
+  },
+  {
+   "id": "A9",
+   "group": "appendix",
+   "class": "drug-drug co-occurrence network",
+   "query": "Which drugs frequently co-occur in combination studies for HIV?",
+   "passed": true,
+   "seconds": 2.56,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4516,
+   "output_tokens": 298,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"network\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"HIV\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "network fields",
+     "ok": true,
+     "got": "[\"intervention\", \"intervention\"]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"network_graph\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "network",
+    "filters": {
+     "condition": "HIV"
+    },
+    "network": {
+     "source_field": "intervention",
+     "target_field": "intervention"
+    },
+    "limit": 50,
+    "interpretation": "Build a co-occurrence network of interventions (drugs) that appear together in HIV combination studies, showing frequently co-used drug pairs."
+   }
+  },
+  {
+   "id": "B1",
+   "group": "beyond",
+   "class": "distribution of a number (histogram)",
+   "query": "What is the typical size of Parkinson's disease trials?",
+   "passed": true,
+   "seconds": 2.08,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4515,
+   "output_tokens": 255,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"histogram\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"Parkinson's disease\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "bin field",
+     "ok": true,
+     "got": "\"enrollment\""
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"histogram\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "histogram",
+    "filters": {
+     "condition": "Parkinson's disease"
+    },
+    "bin": {
+     "field": "enrollment",
+     "bin_width": 100.0
+    },
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Show the distribution of Parkinson's disease trial enrollment sizes (participants) to understand the typical trial size."
+   }
+  },
+  {
+   "id": "B2",
+   "group": "beyond",
+   "class": "relationship between two numbers (scatter)",
+   "query": "Is there a relationship between enrollment and how long trials last for migraine?",
+   "passed": true,
+   "seconds": 2.09,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4518,
+   "output_tokens": 259,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"points\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"migraine\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "x and y fields",
+     "ok": true,
+     "got": "[\"enrollment\", \"duration_months\"]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"scatter_plot\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "points",
+    "filters": {
+     "condition": "migraine"
+    },
+    "x_field": "enrollment",
+    "y_field": "duration_months",
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Plot each migraine trial as a scatter point to compare enrollment size (x-axis) versus trial duration in months (y-axis)."
+   }
+  },
+  {
+   "id": "B3",
+   "group": "beyond",
+   "class": "per-trial timeline (gantt)",
+   "query": "Show a timeline of the earliest tocilizumab trials.",
+   "passed": true,
+   "seconds": 2.56,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4516,
+   "output_tokens": 338,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"points\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter drug",
+     "ok": true,
+     "got": "\"tocilizumab\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "start and end fields",
+     "ok": true,
+     "got": "[\"start_date\", \"completion_date\"]"
+    },
+    {
+     "check": "sort",
+     "ok": true,
+     "got": "\"asc\""
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"gantt\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "points",
+    "filters": {
+     "drug": "tocilizumab"
+    },
+    "start_field": "start_date",
+    "end_field": "completion_date",
+    "sort": "asc",
+    "limit": 50,
+    "chart_type": "gantt",
+    "interpretation": "Show a Gantt-style timeline of tocilizumab trials, ordered from earliest start_date to latest (each trial spans from start_date to completion_date)."
+   }
+  },
+  {
+   "id": "B4",
+   "group": "beyond",
+   "class": "breakdown by two fields",
+   "query": "Break down hepatitis C trials by phase and sponsor category.",
+   "passed": true,
+   "seconds": 2.27,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4515,
+   "output_tokens": 250,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"phase\", \"sponsor_class\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"hepatitis C\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"stacked_bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "hepatitis C"
+    },
+    "group_by": [
+     "phase",
+     "sponsor_class"
+    ],
+    "sort": "natural",
+    "interpretation": "Count hepatitis C trials broken down by phase and sponsor category."
+   }
+  },
+  {
+   "id": "B5",
+   "group": "beyond",
+   "class": "sponsor and country filters, yes/no field",
+   "query": "For Novartis trials in Japan, how many have posted results and how many have not?",
+   "passed": true,
+   "seconds": 3.94,
+   "llm_calls": 2,
+   "tool_calls": 1,
+   "retries": 0,
+   "input_tokens": 9229,
+   "output_tokens": 361,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"has_results\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter sponsor",
+     "ok": true,
+     "got": "\"Novartis\""
+    },
+    {
+     "check": "filter country",
+     "ok": true,
+     "got": "\"Japan\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "sponsor": "Novartis",
+     "country": "Japan"
+    },
+    "group_by": [
+     "has_results"
+    ],
+    "interpretation": "Count Novartis-sponsored clinical trials located in Japan, grouped by whether they have posted results (posted vs not posted)."
+   }
+  },
+  {
+   "id": "B6",
+   "group": "beyond",
+   "class": "ranking with phase and year filters and a limit",
+   "query": "Who are the top 5 sponsors of phase 3 depression trials started since 2018?",
+   "passed": true,
+   "seconds": 2.31,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4523,
+   "output_tokens": 261,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"sponsor\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"depression\""
+    },
+    {
+     "check": "filter phase",
+     "ok": true,
+     "got": "[\"PHASE3\"]"
+    },
+    {
+     "check": "filter start_year_min",
+     "ok": true,
+     "got": "2018"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "sort",
+     "ok": true,
+     "got": "\"desc\""
+    },
+    {
+     "check": "limit",
+     "ok": true,
+     "got": "5"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "depression",
+     "phase": [
+      "PHASE3"
+     ],
+     "start_year_min": 2018
+    },
+    "group_by": [
+     "sponsor"
+    ],
+    "limit": 5,
+    "interpretation": "Count depression Phase 3 trials (started since 2018) and return the top 5 lead sponsors by number of trials."
+   }
+  },
+  {
+   "id": "B7",
+   "group": "beyond",
+   "class": "misspelled drug name",
+   "query": "What is the status breakdown of trastuzumub trials?",
+   "passed": true,
+   "seconds": 3.59,
+   "llm_calls": 2,
+   "tool_calls": 1,
+   "retries": 0,
+   "input_tokens": 9143,
+   "output_tokens": 288,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"status\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter drug",
+     "ok": true,
+     "got": "\"trastuzumab\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "drug": "trastuzumab"
+    },
+    "group_by": [
+     "status"
+    ],
+    "limit": 50,
+    "interpretation": "Count trastuzumab trials grouped by ClinicalTrials.gov overall recruitment status to show a status breakdown."
+   }
+  },
+  {
+   "id": "B8",
+   "group": "beyond",
+   "class": "comparison over time",
+   "query": "Compare how many trials started per year for dupilumab vs omalizumab since 2016.",
+   "passed": true,
+   "seconds": 4.29,
+   "llm_calls": 2,
+   "tool_calls": 2,
+   "retries": 0,
+   "input_tokens": 9259,
+   "output_tokens": 421,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"start_year\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "2"
+    },
+    {
+     "check": "filter start_year_min",
+     "ok": true,
+     "got": "2016"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "series by drug",
+     "ok": true,
+     "got": "[\"dupilumab\", \"omalizumab\"]"
+    },
+    {
+     "check": "no series filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"time_series\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "start_year_min": 2016
+    },
+    "series": [
+     {
+      "label": "Dupilumab",
+      "filters": {
+       "drug": "dupilumab"
+      }
+     },
+     {
+      "label": "Omalizumab",
+      "filters": {
+       "drug": "omalizumab"
+      }
+     }
+    ],
+    "group_by": [
+     "start_year"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Count how many trials start each year since 2016, comparing dupilumab vs omalizumab."
+   }
+  },
+  {
+   "id": "U1",
+   "group": "unsupported",
+   "class": "too vague",
+   "query": "What's going on with clinical research lately?",
+   "passed": true,
+   "seconds": 2.64,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4512,
+   "output_tokens": 303,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"unsupported\""
+    },
+    {
+     "check": "refused by the model with a reason",
+     "ok": true,
+     "got": "\"The question is too vague (no specific drug, condition, sponsor, country, or measurable metric like recruiting/completed). ClinicalTrials.gov can summarize tren\""
+    }
+   ],
+   "status": "unsupported",
+   "detail": "The question is too vague (no specific drug, condition, sponsor, country, or measurable metric like recruiting/completed). ClinicalTrials.gov can summarize trends by dates, status, phase, and counts, but it can’t answer “what’s going on” without a defined scope. Try asking for a trend since 2024 (e.g., total trial starts per year, recruiting trials by status, or trials by phase) or for a specific condition/drug/sponsor.",
+   "plan": null
+  },
+  {
+   "id": "U2",
+   "group": "unsupported",
+   "class": "asks about efficacy",
+   "query": "Is metformin better than insulin for type 2 diabetes?",
+   "passed": true,
+   "seconds": 3.03,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4516,
+   "output_tokens": 397,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"unsupported\""
+    },
+    {
+     "check": "refused by the model with a reason",
+     "ok": true,
+     "got": "\"Trial registry records in ClinicalTrials.gov do not provide comparative effectiveness (\\u201cbetter\\u201d), only trial setups and basic attributes. Try asking about trial\""
+    }
+   ],
+   "status": "unsupported",
+   "detail": "Trial registry records in ClinicalTrials.gov do not provide comparative effectiveness (“better”), only trial setups and basic attributes. Try asking about trial distributions (e.g., counts by phase, status, or start year) for metformin vs insulin in type 2 diabetes.",
+   "plan": null
+  },
+  {
+   "id": "U3",
+   "group": "unsupported",
+   "class": "asks for something trial records do not hold",
+   "query": "What is the average cost per patient of oncology trials?",
+   "passed": true,
+   "seconds": 2.93,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4515,
+   "output_tokens": 372,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"unsupported\""
+    },
+    {
+     "check": "refused by the model with a reason",
+     "ok": true,
+     "got": "\"ClinicalTrials.gov trial records in this dataset do not include trial cost fields (only fields like enrollment, duration, dates, phase/status, and basic identif\""
+    }
+   ],
+   "status": "unsupported",
+   "detail": "ClinicalTrials.gov trial records in this dataset do not include trial cost fields (only fields like enrollment, duration, dates, phase/status, and basic identifiers). Ask instead for proxies such as enrollment per trial, trial duration, or which oncology trial phases/statuses are most common.",
+   "plan": null
+  },
+  {
+   "id": "H1",
+   "group": "harder",
+   "class": "categories named in the question are data buckets, not series",
+   "query": "Are industry or academic sponsors running more lupus trials?",
+   "passed": true,
+   "seconds": 2.8,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4514,
+   "output_tokens": 343,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"sponsor_class\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"lupus\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "lupus"
+    },
+    "group_by": [
+     "sponsor_class"
+    ],
+    "chart_type": "bar_chart",
+    "interpretation": "Count lupus trials and compare how many are run by academic versus industry sponsors by grouping trials by sponsor_class."
+   }
+  },
+  {
+   "id": "H2",
+   "group": "harder",
+   "class": "four filters at once",
+   "query": "Between 2010 and 2015, which phase had the most breast cancer trials in Germany?",
+   "passed": true,
+   "seconds": 2.68,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4524,
+   "output_tokens": 290,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"phase\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"breast cancer\""
+    },
+    {
+     "check": "filter country",
+     "ok": true,
+     "got": "\"Germany\""
+    },
+    {
+     "check": "filter start_year_min",
+     "ok": true,
+     "got": "2010"
+    },
+    {
+     "check": "filter start_year_max",
+     "ok": true,
+     "got": "2015"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "breast cancer",
+     "country": "Germany",
+     "start_year_min": 2010,
+     "start_year_max": 2015
+    },
+    "group_by": [
+     "phase"
+    ],
+    "interpretation": "Count breast cancer trials in Germany by phase for trials with start years from 2010 to 2015, and identify which phase has the most."
+   }
+  },
+  {
+   "id": "H3",
+   "group": "harder",
+   "class": "three series, indirect wording",
+   "query": "Pembrolizumab, nivolumab and atezolizumab: how do their yearly trial starts compare?",
+   "passed": true,
+   "seconds": 3.0,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4526,
+   "output_tokens": 321,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"start_year\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "3"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "series by drug",
+     "ok": true,
+     "got": "[\"pembrolizumab\", \"nivolumab\", \"atezolizumab\"]"
+    },
+    {
+     "check": "no series filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"time_series\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "series": [
+     {
+      "label": "Pembrolizumab",
+      "filters": {
+       "drug": "pembrolizumab"
+      }
+     },
+     {
+      "label": "Nivolumab",
+      "filters": {
+       "drug": "nivolumab"
+      }
+     },
+     {
+      "label": "Atezolizumab",
+      "filters": {
+       "drug": "atezolizumab"
+      }
+     }
+    ],
+    "group_by": [
+     "start_year"
+    ],
+    "sort": "natural",
+    "limit": 50,
+    "interpretation": "Count and compare the number of trials that start each year for pembrolizumab, nivolumab, and atezolizumab."
+   }
+  },
+  {
+   "id": "H4",
+   "group": "harder",
+   "class": "sponsor as the filter, condition as the breakdown",
+   "query": "Which conditions does Pfizer study most?",
+   "passed": true,
+   "seconds": 3.61,
+   "llm_calls": 2,
+   "tool_calls": 1,
+   "retries": 0,
+   "input_tokens": 9166,
+   "output_tokens": 313,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"condition\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter sponsor",
+     "ok": true,
+     "got": "\"Pfizer\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "sort",
+     "ok": true,
+     "got": "\"desc\""
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "sponsor": "Pfizer"
+    },
+    "group_by": [
+     "condition"
+    ],
+    "interpretation": "Count Pfizer-led clinical trials per condition and return the conditions with the most trials."
+   }
+  },
+  {
+   "id": "H5",
+   "group": "harder",
+   "class": "status implied by wording",
+   "query": "Do finished ivacaftor trials usually have their results posted?",
+   "passed": true,
+   "seconds": 3.05,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4517,
+   "output_tokens": 387,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"has_results\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter drug",
+     "ok": true,
+     "got": "\"ivacaftor\""
+    },
+    {
+     "check": "filter status",
+     "ok": true,
+     "got": "[\"COMPLETED\"]"
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "drug": "ivacaftor",
+     "status": [
+      "COMPLETED"
+     ]
+    },
+    "group_by": [
+     "has_results"
+    ],
+    "interpretation": "Count completed ivacaftor trials and break them out by whether results are posted (has_results)."
+   }
+  },
+  {
+   "id": "H6",
+   "group": "harder",
+   "class": "network of two non-drug fields",
+   "query": "Map which sponsors run sickle cell disease trials in which countries.",
+   "passed": true,
+   "seconds": 2.38,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4517,
+   "output_tokens": 272,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"network\""
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"sickle cell disease\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "network fields",
+     "ok": true,
+     "got": "[\"sponsor\", \"country\"]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"network_graph\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "network",
+    "filters": {
+     "condition": "sickle cell disease"
+    },
+    "network": {
+     "source_field": "sponsor",
+     "target_field": "country"
+    },
+    "limit": 50,
+    "interpretation": "Show which sponsors conducting sickle cell disease trials are associated with which countries."
+   }
+  },
+  {
+   "id": "H7",
+   "group": "harder",
+   "class": "misspelled brand name",
+   "query": "How many Keytrudda trials are there in each phase?",
+   "passed": true,
+   "seconds": 5.7,
+   "llm_calls": 2,
+   "tool_calls": 3,
+   "retries": 0,
+   "input_tokens": 9388,
+   "output_tokens": 651,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"phase\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter drug",
+     "ok": true,
+     "got": "\"Keytruda\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "drug": "Keytruda"
+    },
+    "group_by": [
+     "phase"
+    ],
+    "sort": "natural",
+    "interpretation": "Count the number of Keytruda (Keytrudda) trials in each ClinicalTrials.gov phase."
+   }
+  },
+  {
+   "id": "H8",
+   "group": "harder",
+   "class": "asks for a prediction",
+   "query": "Predict how many Alzheimer's trials will start next year.",
+   "passed": true,
+   "seconds": 2.87,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4514,
+   "output_tokens": 370,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"unsupported\""
+    },
+    {
+     "check": "refused by the model with a reason",
+     "ok": true,
+     "got": "\"Predicting future trial counts (how many will start next year) is not something trial records can provide directly; they only support counting what is already r\""
+    }
+   ],
+   "status": "unsupported",
+   "detail": "Predicting future trial counts (how many will start next year) is not something trial records can provide directly; they only support counting what is already registered/planned. You could ask instead how many Alzheimer's disease trials are scheduled to start in 2027, or how start counts changed over past years.",
+   "plan": null
+  },
+  {
+   "id": "H9",
+   "group": "harder",
+   "class": "a chart type that does not exist",
+   "query": "Give me a pie chart of leukemia trials by status.",
+   "passed": true,
+   "seconds": 2.55,
+   "llm_calls": 1,
+   "tool_calls": 0,
+   "retries": 0,
+   "input_tokens": 4515,
+   "output_tokens": 276,
+   "checks": [
+    {
+     "check": "status",
+     "ok": true,
+     "got": "\"plan\""
+    },
+    {
+     "check": "mode",
+     "ok": true,
+     "got": "\"aggregate\""
+    },
+    {
+     "check": "group_by",
+     "ok": true,
+     "got": "[\"status\"]"
+    },
+    {
+     "check": "series",
+     "ok": true,
+     "got": "1"
+    },
+    {
+     "check": "filter condition",
+     "ok": true,
+     "got": "\"leukemia\""
+    },
+    {
+     "check": "no filter that was not asked for",
+     "ok": true,
+     "got": "[]"
+    },
+    {
+     "check": "chart",
+     "ok": true,
+     "got": "\"bar_chart\""
+    }
+   ],
+   "status": "plan",
+   "detail": "",
+   "plan": {
+    "mode": "aggregate",
+    "filters": {
+     "condition": "leukemia"
+    },
+    "group_by": [
+     "status"
+    ],
+    "interpretation": "Count leukemia trials grouped by recruitment status (to show the share of trials in each status as a pie chart)."
+   }
+  }
+ ]
+}

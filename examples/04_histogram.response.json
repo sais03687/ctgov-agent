@@ -1,0 +1,1458 @@
+{
+  "status": "ok",
+  "query": "What does the distribution of enrollment sizes look like for cystic fibrosis trials?",
+  "visualization": {
+    "title": "Cystic fibrosis trials by enrollment",
+    "type": "histogram",
+    "encoding": {
+      "x": {
+        "field": "bin_start",
+        "type": "quantitative",
+        "title": "Enrollment",
+        "unit": "participants"
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "bin_start": 0.0,
+        "bin_end": 100.0,
+        "trial_count": 1235,
+        "is_overflow": false
+      },
+      {
+        "id": "d2",
+        "bin_start": 100.0,
+        "bin_end": 200.0,
+        "trial_count": 244,
+        "is_overflow": false
+      },
+      {
+        "id": "d3",
+        "bin_start": 200.0,
+        "bin_end": 300.0,
+        "trial_count": 97,
+        "is_overflow": false
+      },
+      {
+        "id": "d4",
+        "bin_start": 300.0,
+        "bin_end": 400.0,
+        "trial_count": 42,
+        "is_overflow": false
+      },
+      {
+        "id": "d5",
+        "bin_start": 400.0,
+        "bin_end": 500.0,
+        "trial_count": 34,
+        "is_overflow": false
+      },
+      {
+        "id": "d6",
+        "bin_start": 500.0,
+        "bin_end": 600.0,
+        "trial_count": 27,
+        "is_overflow": false
+      },
+      {
+        "id": "d7",
+        "bin_start": 600.0,
+        "bin_end": 700.0,
+        "trial_count": 14,
+        "is_overflow": false
+      },
+      {
+        "id": "d8",
+        "bin_start": 700.0,
+        "bin_end": 800.0,
+        "trial_count": 6,
+        "is_overflow": false
+      },
+      {
+        "id": "d9",
+        "bin_start": 800.0,
+        "bin_end": 900.0,
+        "trial_count": 8,
+        "is_overflow": false
+      },
+      {
+        "id": "d10",
+        "bin_start": 900.0,
+        "bin_end": 1000.0,
+        "trial_count": 4,
+        "is_overflow": false
+      },
+      {
+        "id": "d11",
+        "bin_start": 1000.0,
+        "bin_end": 1100.0,
+        "trial_count": 7,
+        "is_overflow": false
+      },
+      {
+        "id": "d12",
+        "bin_start": 1100.0,
+        "bin_end": 1200.0,
+        "trial_count": 2,
+        "is_overflow": false
+      },
+      {
+        "id": "d13",
+        "bin_start": 1200.0,
+        "bin_end": 1300.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d14",
+        "bin_start": 1300.0,
+        "bin_end": 1400.0,
+        "trial_count": 2,
+        "is_overflow": false
+      },
+      {
+        "id": "d15",
+        "bin_start": 1400.0,
+        "bin_end": 1500.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d16",
+        "bin_start": 1500.0,
+        "bin_end": 1600.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d17",
+        "bin_start": 1600.0,
+        "bin_end": 1700.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d18",
+        "bin_start": 1700.0,
+        "bin_end": 1800.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d19",
+        "bin_start": 1800.0,
+        "bin_end": 1900.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d20",
+        "bin_start": 1900.0,
+        "bin_end": 2000.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d21",
+        "bin_start": 2000.0,
+        "bin_end": 2100.0,
+        "trial_count": 4,
+        "is_overflow": false
+      },
+      {
+        "id": "d22",
+        "bin_start": 2100.0,
+        "bin_end": 2200.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d23",
+        "bin_start": 2200.0,
+        "bin_end": 2300.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d24",
+        "bin_start": 2300.0,
+        "bin_end": 2400.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d25",
+        "bin_start": 2400.0,
+        "bin_end": 2500.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d26",
+        "bin_start": 2500.0,
+        "bin_end": 2600.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d27",
+        "bin_start": 2600.0,
+        "bin_end": 2700.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d28",
+        "bin_start": 2700.0,
+        "bin_end": 2800.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d29",
+        "bin_start": 2800.0,
+        "bin_end": 2900.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d30",
+        "bin_start": 2900.0,
+        "bin_end": 3000.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d31",
+        "bin_start": 3000.0,
+        "bin_end": 3100.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d32",
+        "bin_start": 3100.0,
+        "bin_end": 3200.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d33",
+        "bin_start": 3200.0,
+        "bin_end": 3300.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d34",
+        "bin_start": 3300.0,
+        "bin_end": 3400.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d35",
+        "bin_start": 3400.0,
+        "bin_end": 3500.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d36",
+        "bin_start": 3500.0,
+        "bin_end": 3600.0,
+        "trial_count": 2,
+        "is_overflow": false
+      },
+      {
+        "id": "d37",
+        "bin_start": 3600.0,
+        "bin_end": 3700.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d38",
+        "bin_start": 3700.0,
+        "bin_end": 3800.0,
+        "trial_count": 0,
+        "is_overflow": false
+      },
+      {
+        "id": "d39",
+        "bin_start": 3800.0,
+        "bin_end": 3900.0,
+        "trial_count": 1,
+        "is_overflow": false
+      },
+      {
+        "id": "d40",
+        "bin_start": 3900.0,
+        "bin_end": 120000.0,
+        "trial_count": 15,
+        "is_overflow": true
+      }
+    ]
+  },
+  "citations": {
+    "d1": {
+      "total": 1235,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B0%2C99%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT01712334",
+          "title": "A Study of the Comparable Efficacy and Safety of Pulmozyme (Dornase Alfa) Delivered by the eRapid Nebulizer System in Patients With Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT01712334",
+          "bucket_label": "0–100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 99
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03150719",
+          "title": "A Study to Evaluate Safety, Efficacy, and Tolerability of TEZ/IVA in Orkambi® (Lumacaftor/Ivacaftor) -Experienced Subjects With Cystic Fibrosis (CF)",
+          "url": "https://clinicaltrials.gov/study/NCT03150719",
+          "bucket_label": "0–100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 98
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT00865904",
+          "title": "Study of VX-809 in Cystic Fibrosis Subjects With the ∆F508-CFTR Gene Mutation",
+          "url": "https://clinicaltrials.gov/study/NCT00865904",
+          "bucket_label": "0–100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 93
+            }
+          ]
+        }
+      ]
+    },
+    "d2": {
+      "total": 244,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B100%2C199%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT01531673",
+          "title": "Study of VX-661 Alone and in Combination With Ivacaftor in Subjects Homozygous or Heterozygous to the F508del-Cystic Fibrosis Transmembrane Conductance Regulator(CFTR) Mutation",
+          "url": "https://clinicaltrials.gov/study/NCT01531673",
+          "bucket_label": "100–200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 194
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01117012",
+          "title": "Rollover Study of VX-770 in Cystic Fibrosis Subjects",
+          "url": "https://clinicaltrials.gov/study/NCT01117012",
+          "bucket_label": "100–200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 192
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01140451",
+          "title": "Extension Study of Ataluren (PTC124) in Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT01140451",
+          "bucket_label": "100–200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 191
+            }
+          ]
+        }
+      ]
+    },
+    "d3": {
+      "total": 97,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B200%2C299%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT00645788",
+          "title": "Study to Evaluate the Safety and Efficacy of Ciprofloxacin (Inhaled) in Patients With Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT00645788",
+          "bucket_label": "200–300 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 288
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03460704",
+          "title": "Trial in Non-cystic Fibrosis Bronchiectasis Patients With Chronic Lung Infections Treated With Colistimethate Sodium.",
+          "url": "https://clinicaltrials.gov/study/NCT03460704",
+          "bucket_label": "200–300 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 287
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01270347",
+          "title": "Trial of Aeroquin Versus Tobramycin Inhalation Solution (TIS) in Cystic Fibrosis (CF) Patients",
+          "url": "https://clinicaltrials.gov/study/NCT01270347",
+          "bucket_label": "200–300 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 282
+            }
+          ]
+        }
+      ]
+    },
+    "d4": {
+      "total": 42,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B300%2C399%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT03447249",
+          "title": "A Phase 3 Study of VX-659 Combination Therapy in Subjects With Cystic Fibrosis Heterozygous for the F508del Mutation and a Minimal Function Mutation (F/MF)",
+          "url": "https://clinicaltrials.gov/study/NCT03447249",
+          "bucket_label": "300–400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 385
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03093974",
+          "title": "Efficacy and Safety of Inhaled CMS in Bronchiectasis Subjects With Chronic P. Aeruginosa Infection. (PROMIS-I)",
+          "url": "https://clinicaltrials.gov/study/NCT03093974",
+          "bucket_label": "300–400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 377
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06350461",
+          "title": "Impact of Discontinuing Hypertonic Saline in People With CF on Highly Effective CFTR Modulators- A SIMPLIFY Sub-Study",
+          "url": "https://clinicaltrials.gov/study/NCT06350461",
+          "bucket_label": "300–400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 370
+            }
+          ]
+        }
+      ]
+    },
+    "d5": {
+      "total": 34,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B400%2C499%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT03447262",
+          "title": "A Study Evaluating the Long Term Safety and Efficacy of VX-659 Combination Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT03447262",
+          "bucket_label": "400–500 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 484
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06350474",
+          "title": "Impact of Discontinuing Dornase Alfa in People With CF on Highly Effective CFTR Modulator Therapy-A SIMPLIFY Sub-Study",
+          "url": "https://clinicaltrials.gov/study/NCT06350474",
+          "bucket_label": "400–500 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 477
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01179347",
+          "title": "Tiotropium Bromide in Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT01179347",
+          "bucket_label": "400–500 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 464
+            }
+          ]
+        }
+      ]
+    },
+    "d6": {
+      "total": 27,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B500%2C599%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05076149",
+          "title": "A Study of VX-121 Combination Therapy in Participants With Cystic Fibrosis (CF) Who Are Homozygous for F508del, Heterozygous for F508del and a Gating (F/G) or Residual Function (F/RF) Mutation, or Have At Least 1 Other Triple Combination Responsive (TCR) CFTR Mutation and No F508del Mutation",
+          "url": "https://clinicaltrials.gov/study/NCT05076149",
+          "bucket_label": "500–600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 597
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01427725",
+          "title": "Special Investigation of LipaCreon on Long-term Use in Patients With Pancreatic Exocrine Insufficiency",
+          "url": "https://clinicaltrials.gov/study/NCT01427725",
+          "bucket_label": "500–600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 579
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01807949",
+          "title": "A Study of Lumacaftor in Combination With Ivacaftor in Cystic Fibrosis Subjects Aged 12 Years and Older Who Are Homozygous for the F508del-CFTR Mutation",
+          "url": "https://clinicaltrials.gov/study/NCT01807949",
+          "bucket_label": "500–600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 563
+            }
+          ]
+        }
+      ]
+    },
+    "d7": {
+      "total": 14,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B600%2C699%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07616375",
+          "title": "A Study to Assess the Safety of HSK31858 in Participants With Non-Cystic Fibrosis Bronchiectasis",
+          "url": "https://clinicaltrials.gov/study/NCT07616375",
+          "bucket_label": "600–700 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 669
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06660992",
+          "title": "A Study to Assess the Efficacy and Safety of HSK31858 in Participants With Non-Cystic Fibrosis Bronchiectasis",
+          "url": "https://clinicaltrials.gov/study/NCT06660992",
+          "bucket_label": "600–700 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 669
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04923880",
+          "title": "Pragmatic Implementation Trial of a CF Primary Palliative Care Intervention",
+          "url": "https://clinicaltrials.gov/study/NCT04923880",
+          "bucket_label": "600–700 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 643
+            }
+          ]
+        }
+      ]
+    },
+    "d8": {
+      "total": 6,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B700%2C799%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT01144507",
+          "title": "Prediction by Ultrasound of the Risk of Hepatic Cirrhosis in Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT01144507",
+          "bucket_label": "700–800 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 774
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07599839",
+          "title": "BASE: Bronchiectasis Severity and Exacerbation Risk Study",
+          "url": "https://clinicaltrials.gov/study/NCT07599839",
+          "bucket_label": "700–800 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 750
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07599969",
+          "title": "Bronchiectasis Phenotype Identification Model",
+          "url": "https://clinicaltrials.gov/study/NCT07599969",
+          "bucket_label": "700–800 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 750
+            }
+          ]
+        }
+      ]
+    },
+    "d9": {
+      "total": 8,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B800%2C899%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT04798014",
+          "title": "HERO-2: Home-Reported Outcomes With CFTR Modulator Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT04798014",
+          "bucket_label": "800–900 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 860
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03475381",
+          "title": "Real-life Follow-up of Cystic Fibrosis Patients Treated With Ivacaftor+Lumacaftor (Orkambi*)",
+          "url": "https://clinicaltrials.gov/study/NCT03475381",
+          "bucket_label": "800–900 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 852
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03312075",
+          "title": "Epidemiology and Clinical Characteristics of Non-Tuberculous Mycobacteria Infections in Cystic Fibrosis Patients.",
+          "url": "https://clinicaltrials.gov/study/NCT03312075",
+          "bucket_label": "800–900 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 848
+            }
+          ]
+        }
+      ]
+    },
+    "d10": {
+      "total": 4,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B900%2C999%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT04378153",
+          "title": "Impact of Discontinuing Chronic Therapies in People With Cystic Fibrosis on Highly Effective CFTR Modulator Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT04378153",
+          "bucket_label": "900–1,000 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 987
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02781610",
+          "title": "Standardized Treatment of Pulmonary Exacerbations II",
+          "url": "https://clinicaltrials.gov/study/NCT02781610",
+          "bucket_label": "900–1,000 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 982
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05829694",
+          "title": "Health Outcomes of Parents With Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT05829694",
+          "bucket_label": "900–1,000 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 956
+            }
+          ]
+        }
+      ]
+    },
+    "d11": {
+      "total": 7,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1000%2C1099%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07422870",
+          "title": "GRAnulomatous MAstitis REGistry Study",
+          "url": "https://clinicaltrials.gov/study/NCT07422870",
+          "bucket_label": "1,000–1,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04863573",
+          "title": "COVID-19 Antibody Responses In Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT04863573",
+          "bucket_label": "1,000–1,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06539169",
+          "title": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+          "url": "https://clinicaltrials.gov/study/NCT06539169",
+          "bucket_label": "1,000–1,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1000
+            }
+          ]
+        }
+      ]
+    },
+    "d12": {
+      "total": 2,
+      "shown": 2,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1100%2C1199%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT01931839",
+          "title": "A Phase 3 Rollover Study of Lumacaftor in Combination With Ivacaftor in Subjects 12 Years and Older With Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT01931839",
+          "bucket_label": "1,100–1,200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1164
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02565914",
+          "title": "A Study to Evaluate the Safety and Efficacy of Long Term Treatment With VX-661 in Combination With Ivacaftor in Participants With Cystic Fibrosis Who Have an F508del-CFTR Mutation",
+          "url": "https://clinicaltrials.gov/study/NCT02565914",
+          "bucket_label": "1,100–1,200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1131
+            }
+          ]
+        }
+      ]
+    },
+    "d13": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1200%2C1299%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT00676169",
+          "title": "The EPIC Observational Study",
+          "url": "https://clinicaltrials.gov/study/NCT00676169",
+          "bucket_label": "1,200–1,300 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1248
+            }
+          ]
+        }
+      ]
+    },
+    "d14": {
+      "total": 2,
+      "shown": 2,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1300%2C1399%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05519020",
+          "title": "Inhaled Therapy Adherence and Outcomes to Kaftrio in Cystic Fibrosis",
+          "url": "https://clinicaltrials.gov/study/NCT05519020",
+          "bucket_label": "1,300–1,400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1385
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT01858519",
+          "title": "Prevalence of Antibodies to Selected Porcine Viruses in Patients With Cystic Fibrosis Receiving Porcine-derived Pancreatic Enzyme Replacement Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT01858519",
+          "bucket_label": "1,300–1,400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1310
+            }
+          ]
+        }
+      ]
+    },
+    "d15": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1400%2C1499%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d16": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1500%2C1599%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT01113216",
+          "title": "Genetic Modifiers of Cystic Fibrosis Related Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT01113216",
+          "bucket_label": "1,500–1,600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "d17": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1600%2C1699%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT06106789",
+          "title": "A Study of the Clinical Benefit of Tobramycin Inhalation Solution",
+          "url": "https://clinicaltrials.gov/study/NCT06106789",
+          "bucket_label": "1,600–1,700 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1600
+            }
+          ]
+        }
+      ]
+    },
+    "d18": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1700%2C1799%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT04594369",
+          "title": "A Study to Assess the Efficacy, Safety, and Tolerability of Brensocatib in Participants With Non-Cystic Fibrosis Bronchiectasis",
+          "url": "https://clinicaltrials.gov/study/NCT04594369",
+          "bucket_label": "1,700–1,800 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1767
+            }
+          ]
+        }
+      ]
+    },
+    "d19": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1800%2C1899%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d20": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B1900%2C1999%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05663255",
+          "title": "Effectiveness of CFTR Modulators According to Co-therapy",
+          "url": "https://clinicaltrials.gov/study/NCT05663255",
+          "bucket_label": "1,900–2,000 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 1990
+            }
+          ]
+        }
+      ]
+    },
+    "d21": {
+      "total": 4,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2000%2C2099%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT02803944",
+          "title": "Continuous Azithromycin in Cystic Fibrosis Patients Beyond Two Years",
+          "url": "https://clinicaltrials.gov/study/NCT02803944",
+          "bucket_label": "2,000–2,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2055
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04585074",
+          "title": "Prospective Study of MAstectomy With Reconstruction Including Robot Endoscopic Surgery",
+          "url": "https://clinicaltrials.gov/study/NCT04585074",
+          "bucket_label": "2,000–2,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2000
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03052283",
+          "title": "Development and Validation of a Disease Specific PROM to Assess Abdominal Involvement in Patients With CF (CFAbd-Score)",
+          "url": "https://clinicaltrials.gov/study/NCT03052283",
+          "bucket_label": "2,000–2,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2000
+            }
+          ]
+        }
+      ]
+    },
+    "d22": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2100%2C2199%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT03820752",
+          "title": "Vaccination Coverage and Level of Protection in Patients at Risk",
+          "url": "https://clinicaltrials.gov/study/NCT03820752",
+          "bucket_label": "2,100–2,200 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2179
+            }
+          ]
+        }
+      ]
+    },
+    "d23": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2200%2C2299%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d24": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2300%2C2399%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT05364138",
+          "title": "Evaluating Scaleup of an Adapted Breast Cancer Early Diagnosis Program in Rwanda",
+          "url": "https://clinicaltrials.gov/study/NCT05364138",
+          "bucket_label": "2,300–2,400 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2357
+            }
+          ]
+        }
+      ]
+    },
+    "d25": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2400%2C2499%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d26": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2500%2C2599%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d27": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2600%2C2699%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d28": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2700%2C2799%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d29": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2800%2C2899%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT07628530",
+          "title": "Reference Equations and Normative Data for Isometric Quadriceps and Handgrip Muscles STrength in Southern European Populations - RESTart: a Multicentre Study",
+          "url": "https://clinicaltrials.gov/study/NCT07628530",
+          "bucket_label": "2,800–2,900 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 2815
+            }
+          ]
+        }
+      ]
+    },
+    "d30": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B2900%2C2999%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d31": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3000%2C3099%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT00362739",
+          "title": "Blood Collection From Individuals With Lung Disease for Genetic Studies",
+          "url": "https://clinicaltrials.gov/study/NCT00362739",
+          "bucket_label": "3,000–3,100 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 3087
+            }
+          ]
+        }
+      ]
+    },
+    "d32": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3100%2C3199%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d33": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3200%2C3299%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d34": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3300%2C3399%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d35": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3400%2C3499%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT00037778",
+          "title": "Genetic Modifiers of Cystic Fibrosis: Sibling Study",
+          "url": "https://clinicaltrials.gov/study/NCT00037778",
+          "bucket_label": "3,400–3,500 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 3459
+            }
+          ]
+        }
+      ]
+    },
+    "d36": {
+      "total": 2,
+      "shown": 2,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3500%2C3599%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT00001532",
+          "title": "Role of Genetic Factors in the Development of Lung Disease",
+          "url": "https://clinicaltrials.gov/study/NCT00001532",
+          "bucket_label": "3,500–3,600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 3500
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04930289",
+          "title": "Global Utilization And Registry Database for Improved preservAtion of doNor LUNGs",
+          "url": "https://clinicaltrials.gov/study/NCT04930289",
+          "bucket_label": "3,500–3,600 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 3500
+            }
+          ]
+        }
+      ]
+    },
+    "d37": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3600%2C3699%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d38": {
+      "total": 0,
+      "shown": 0,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3700%2C3799%5D",
+      "search_is_exact": true,
+      "items": []
+    },
+    "d39": {
+      "total": 1,
+      "shown": 1,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3800%2C3899%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT02239874",
+          "title": "VITamin D and OmegA-3 TriaL: Effects on Mammographic Density and Breast Tissue",
+          "url": "https://clinicaltrials.gov/study/NCT02239874",
+          "bucket_label": "3,800–3,900 participants",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 3894
+            }
+          ]
+        }
+      ]
+    },
+    "d40": {
+      "total": 15,
+      "shown": 3,
+      "is_sample": false,
+      "search_url": "https://clinicaltrials.gov/search?cond=cystic+fibrosis&term=AREA%5BEnrollmentCount%5DRANGE%5B3900%2CMAX%5D",
+      "search_is_exact": true,
+      "items": [
+        {
+          "nct_id": "NCT04306939",
+          "title": "Genomic Resources for Enhancing Available Therapies (GREAT1.0) Study",
+          "url": "https://clinicaltrials.gov/study/NCT04306939",
+          "bucket_label": "3,900 participants or more",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 120000
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05253859",
+          "title": "CFTR Modulators and Gastrointestinal Complications",
+          "url": "https://clinicaltrials.gov/study/NCT05253859",
+          "bucket_label": "3,900 participants or more",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 47023
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03840928",
+          "title": "PatientSpot Formerly Known as ArthritisPower",
+          "url": "https://clinicaltrials.gov/study/NCT03840928",
+          "bucket_label": "3,900 participants or more",
+          "evidence": [
+            {
+              "field": "protocolSection.designModule.enrollmentInfo.count",
+              "value": 40000
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meta": {
+    "plan": {
+      "mode": "histogram",
+      "filters": {
+        "condition": "cystic fibrosis",
+        "drug": null,
+        "sponsor": null,
+        "country": null,
+        "status": null,
+        "phase": null,
+        "start_year_min": null,
+        "start_year_max": null
+      },
+      "series": [
+        {
+          "label": "All",
+          "filters": {
+            "condition": null,
+            "drug": null,
+            "sponsor": null,
+            "country": null,
+            "status": null,
+            "phase": null,
+            "start_year_min": null,
+            "start_year_max": null
+          }
+        }
+      ],
+      "group_by": [],
+      "bin": {
+        "field": "enrollment",
+        "bin_width": 100.0
+      },
+      "x_field": null,
+      "y_field": null,
+      "start_field": null,
+      "end_field": null,
+      "network": null,
+      "sort": "natural",
+      "limit": 50,
+      "chart_type": null,
+      "search_terms": {
+        "drug": [],
+        "condition": [],
+        "sponsor": []
+      },
+      "interpretation": "Show how many cystic fibrosis trials fall into each enrollment-size range.",
+      "unsupported_reason": null,
+      "alternatives": []
+    },
+    "interpretation": "Show how many cystic fibrosis trials fall into each enrollment-size range.",
+    "filters_applied": {
+      "All": {
+        "condition": "cystic fibrosis"
+      }
+    },
+    "search_terms": {},
+    "sort": "natural",
+    "time_granularity": null,
+    "units": {
+      "x": "participants",
+      "y": "trials"
+    },
+    "trials_matched": 1772,
+    "trials_used": 1754,
+    "tier": 1,
+    "chart_overridden": false,
+    "pruning": null,
+    "notes": [
+      "18 trials have no enrollment and are left out.",
+      "15 trials have 3,900 participants or more and are gathered in the last bar."
+    ],
+    "source": "clinicaltrials.gov",
+    "data_timestamp": "2026-10-09T09:00:05",
+    "retrieved_at": "2026-10-12T17:01:52+00:00",
+    "suggestions": [],
+    "trace": [
+      {
+        "step": "plan",
+        "ms": 2015.7,
+        "model": "gpt-5.4-mini",
+        "retries": 0,
+        "llm_calls": 1,
+        "tool_calls": [],
+        "input_tokens": 4914,
+        "output_tokens": 227
+      },
+      {
+        "step": "validate",
+        "ms": 0.2,
+        "errors": []
+      },
+      {
+        "step": "fetch",
+        "ms": 268.4,
+        "api_calls": 0,
+        "cache_hits": 3,
+        "tier": 1,
+        "trials_matched": 1772,
+        "series": [
+          {
+            "label": "All",
+            "trials_matched": 1772,
+            "tier": 1,
+            "error": null
+          }
+        ]
+      },
+      {
+        "step": "aggregate",
+        "ms": 2.2,
+        "data_points": 40,
+        "trials_used": 1754,
+        "dropped": {
+          "enrollment": 18
+        }
+      },
+      {
+        "step": "cite",
+        "ms": 5.6,
+        "data_points": 40,
+        "trials_cited": 56,
+        "from_sample": false
+      },
+      {
+        "step": "build",
+        "ms": 0.1,
+        "chart": "histogram",
+        "chart_overridden": false
+      }
+    ]
+  },
+  "error": null
+}

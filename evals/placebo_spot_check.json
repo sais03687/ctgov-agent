@@ -1,0 +1,2211 @@
+[
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04850287"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Control",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Intervention",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Optimal",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "Digital Sensors for Population Awareness about Health Issues using Social Media",
+      "armGroupLabels": [
+       "Control",
+       "Intervention",
+       "Optimal"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03090321"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Stand Prompt",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Step Prompt",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Cluster Prompt",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Read AHA website",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Baseline monitoring",
+      "type": "NO_INTERVENTION"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "Stand Prompt",
+      "armGroupLabels": [
+       "Stand Prompt"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Step Prompt",
+      "armGroupLabels": [
+       "Step Prompt"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Cluster Prompt",
+      "armGroupLabels": [
+       "Cluster Prompt"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Read AHA website",
+      "armGroupLabels": [
+       "Read AHA website"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04224987"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Azithro 1-11",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Azithro 1-59",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Azithro 1-11",
+       "Azithro 1-59"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Azithro 1-11",
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04716712"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Biannual mass oral azithromycin + child health days",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Biannual mass placebo + child health days",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Resistance Sub Study: Azithromycin + Child Health Days",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Resistance Sub Study: Placebo + Child Health Days",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Biannual mass oral azithromycin + child health days",
+       "Resistance Sub Study: Azithromycin + Child Health Days"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Biannual mass placebo + child health days",
+       "Resistance Sub Study: Placebo + Child Health Days"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04410458"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "SMS with safty ensurance",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with thank-you note",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "blood donation SMS",
+      "armGroupLabels": [
+       "SMS with safty ensurance",
+       "SMS with saving life call-1",
+       "SMS with saving life call-2",
+       "SMS with thank-you note"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04370886"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "SMS with safty ensurance",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with holiday greeting",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "blood donation SMS",
+      "armGroupLabels": [
+       "SMS with holiday greeting",
+       "SMS with safty ensurance",
+       "SMS with saving life call-1",
+       "SMS with saving life call-2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04431180"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "SMS with safty ensurance",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with saving life call-2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SMS with blood donor day greeting",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "blood donation SMS",
+      "armGroupLabels": [
+       "SMS with blood donor day greeting",
+       "SMS with safty ensurance",
+       "SMS with saving life call-1",
+       "SMS with saving life call-2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01979588"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Control",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "What's Going Around Tool",
+      "type": "ACTIVE_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "OTHER",
+      "name": "What's Going Around tool",
+      "armGroupLabels": [
+       "What's Going Around Tool"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Control",
+      "armGroupLabels": [
+       "Control"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02027207"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Shanchol",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Shanchol",
+      "armGroupLabels": [
+       "Shanchol"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02047981"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Biannual mass oral azithromycin",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Biannual mass oral placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Biannual mass oral azithromycin"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Biannual mass oral placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02079701"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "23-valent pneumococcal vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "23-valent pneumococcal vaccine",
+      "armGroupLabels": [
+       "23-valent pneumococcal vaccine"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04424511"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Control",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Azithromycin-biannually (Azi-biannual)",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Azithromycin-quarterly",
+      "type": "ACTIVE_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Azithromycin-biannually (Azi-biannual)",
+       "Control"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Azithromycin-biannually (Azi-biannual)",
+       "Azithromycin-quarterly"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04182126"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Regular long-lasting insecticidal nets",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Piperonyl butoxide-treated LLIN",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "PBO-LLIN plus larval source management",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "PBO-LLIN plus enhanced methods",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "LLIN plus indoor residual spraying",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "LLIN+IRS twice a year",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "LLIN+IRS plus enhanced method",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "OTHER",
+      "name": "Regular long-lasting insecticidal nets",
+      "armGroupLabels": [
+       "LLIN plus indoor residual spraying",
+       "LLIN+IRS plus enhanced method",
+       "LLIN+IRS twice a year",
+       "Regular long-lasting insecticidal nets"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "LLIN plus Piperonyl butoxide-treated LLIN",
+      "armGroupLabels": [
+       "PBO-LLIN plus enhanced methods",
+       "PBO-LLIN plus larval source management",
+       "Piperonyl butoxide-treated LLIN"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Long-lasting microbial larvicide",
+      "armGroupLabels": [
+       "LLIN+IRS twice a year",
+       "PBO-LLIN plus larval source management"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Indoor residual spraying with micro-encapsulated pirimiphos-methyl or other insecticides",
+      "armGroupLabels": [
+       "LLIN plus indoor residual spraying",
+       "LLIN+IRS plus enhanced method",
+       "LLIN+IRS twice a year"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01014845"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Hepatitis E vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "HBV vaccine",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "hepatitis E vaccine",
+      "armGroupLabels": [
+       "Hepatitis E vaccine"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Hepatitis B vaccine",
+      "armGroupLabels": [
+       "HBV vaccine"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03909737"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Azithromycin to pregnant women and azithromycin to infants",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Azithromycin to pregnant women and placebo to infants",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo to pregnant women and azithromycin to infants",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo to pregnant women and placebo to infants",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "No intervention to pregnant women and azithromycin to infants",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "No intervention to pregnant women and Placebo to infants",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin to pregnant women",
+      "armGroupLabels": [
+       "Azithromycin to pregnant women and azithromycin to infants",
+       "Azithromycin to pregnant women and placebo to infants"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Azithromycin to infants",
+      "armGroupLabels": [
+       "Azithromycin to pregnant women and azithromycin to infants",
+       "No intervention to pregnant women and azithromycin to infants",
+       "Placebo to pregnant women and azithromycin to infants"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo to pregnant women",
+      "armGroupLabels": [
+       "Placebo to pregnant women and azithromycin to infants",
+       "Placebo to pregnant women and placebo to infants"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo to infants",
+      "armGroupLabels": [
+       "Azithromycin to pregnant women and placebo to infants",
+       "No intervention to pregnant women and Placebo to infants",
+       "Placebo to pregnant women and placebo to infants"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "No intervention to pregnant women",
+      "armGroupLabels": [
+       "No intervention to pregnant women and Placebo to infants",
+       "No intervention to pregnant women and azithromycin to infants"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00269542"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "2",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Zinc and iron folic acid - Intervention",
+      "armGroupLabels": [
+       "1"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Iron Folic Acid alone - Placebo",
+      "armGroupLabels": [
+       "2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00744263"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "13-valent pneumococcal conjugate vaccine",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "VACCINE: placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "VACCINE: 13-valent pneumococcal conjugate vaccine",
+      "armGroupLabels": [
+       "13-valent pneumococcal conjugate vaccine"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03676764"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Biannual mass oral azithromycin",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Biannual mass oral placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Targeted oral placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Targeted oral azithromycin",
+      "type": "ACTIVE_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Biannual mass oral azithromycin",
+       "Biannual mass oral placebo",
+       "Targeted oral azithromycin"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebos",
+      "armGroupLabels": [
+       "Biannual mass oral placebo",
+       "Targeted oral placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02048007"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Biannual mass oral azithromycin",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Biannual mass oral placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Biannual mass oral azithromycin"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Biannual mass oral placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00289224"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "2",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "bivalent killed whole cell oral cholera vaccine",
+      "armGroupLabels": [
+       "1"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00090233"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "2",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Rotateq™",
+      "armGroupLabels": [
+       "1"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Comparator: Placebo",
+      "armGroupLabels": [
+       "2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03338244"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Azithro",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Azithro"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03244072"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Treatment group",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Placebo group",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Moxifloxacin",
+      "armGroupLabels": [
+       "Treatment group"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00198822"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "3",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DIETARY_SUPPLEMENT",
+      "name": "Vitamin A or Beta-Carotene Supplements",
+      "armGroupLabels": [
+       "1",
+       "2",
+       "3"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03871491"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Intervention",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Azithromycin",
+      "armGroupLabels": [
+       "Intervention"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT05648773"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Message Only",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Message + Financial Incentive",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Control",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BEHAVIORAL",
+      "name": "Messaging",
+      "armGroupLabels": [
+       "Message + Financial Incentive",
+       "Message Only"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Financial Incentive",
+      "armGroupLabels": [
+       "Message + Financial Incentive"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Control"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04609423"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Cod liver oil",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Corn oil (placebo)",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DIETARY_SUPPLEMENT",
+      "name": "Cod liver oil",
+      "armGroupLabels": [
+       "Cod liver oil"
+      ]
+     },
+     {
+      "type": "DIETARY_SUPPLEMENT",
+      "name": "Corn oil (placebo)",
+      "armGroupLabels": [
+       "Corn oil (placebo)"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04368728"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "10 µg dose, 18-55 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "20 µg dose, 18-55 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "30 µg dose, 18-55 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "10 µg dose, 65-85 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "20 µg dose, 65-85 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "30 µg dose, 65-85 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "30 µg dose, ≥12 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo, 18-55 years of age",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Placebo, 65-85 years of age",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Placebo, ≥12 years of age",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "100 µg dose, 18-55 years of age (2 doses)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Vaccination of Placebo recipients with BNT162b2 - Stage 1",
+      "type": "OTHER"
+     },
+     {
+      "label": "Vaccination of placebo recipients with BNT162b2 - Stage 2",
+      "type": "OTHER"
+     },
+     {
+      "label": "Booster vaccination of Phase 1 participants with BNT162b2 at a dose of 30 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 30 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Booster vaccination of Phase 3 participants with BNT162b2SA at a dose of 30 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Vaccination of BNT162b2-naive participants with BNT162b2SA at a dose of 30 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Booster and further vaccination of Phase 3 participants with BNT162b2SA at a dose of 30 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 5 µg",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 10 µg",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "BNT162b1",
+      "armGroupLabels": [
+       "10 µg dose, 18-55 years of age (2 doses)",
+       "10 µg dose, 65-85 years of age (2 doses)",
+       "100 µg dose, 18-55 years of age (2 doses)",
+       "20 µg dose, 18-55 years of age (2 doses)",
+       "20 µg dose, 65-85 years of age (2 doses)",
+       "30 µg dose, 18-55 years of age (2 doses)",
+       "30 µg dose, 65-85 years of age (2 doses)"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "BNT162b2",
+      "armGroupLabels": [
+       "10 µg dose, 18-55 years of age (2 doses)",
+       "10 µg dose, 65-85 years of age (2 doses)",
+       "20 µg dose, 18-55 years of age (2 doses)",
+       "20 µg dose, 65-85 years of age (2 doses)",
+       "30 µg dose, 18-55 years of age (2 doses)",
+       "30 µg dose, 65-85 years of age (2 doses)",
+       "30 µg dose, ≥12 years of age (2 doses)",
+       "Booster vaccination of Phase 1 participants with BNT162b2 at a dose of 30 µg",
+       "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 10 µg",
+       "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 30 µg",
+       "Booster vaccination of Phase 3 participants with BNT162b2 at a dose of 5 µg",
+       "Vaccination of Placebo recipients with BNT162b2 - Stage 1",
+       "Vaccination of placebo recipients with BNT162b2 - Stage 2"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo, 18-55 years of age",
+       "Placebo, 65-85 years of age",
+       "Placebo, ≥12 years of age"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "BNT162b2SA",
+      "armGroupLabels": [
+       "Booster and further vaccination of Phase 3 participants with BNT162b2SA at a dose of 30 µg",
+       "Booster vaccination of Phase 3 participants with BNT162b2SA at a dose of 30 µg",
+       "Vaccination of BNT162b2-naive participants with BNT162b2SA at a dose of 30 µg"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01138449"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Vitamin A",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Vitamin A",
+      "armGroupLabels": [
+       "Placebo",
+       "Vitamin A"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04526990"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Experimental group",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo group",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Recombinant Novel Coronavirus Vaccine (Adenovirus Type 5 Vector)",
+      "armGroupLabels": [
+       "Experimental group"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04510207"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Investigational Vaccine 1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Investigational Vaccine 2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Investigational Vaccine 1b",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Investigational Vaccine 2b",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo-b",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Inactivated SARS-CoV-2 Vaccine (Vero cell)",
+      "armGroupLabels": [
+       "Investigational Vaccine 1",
+       "Investigational Vaccine 1b"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Inactivated SARS-CoV-2 Vaccine (Vero cell)",
+      "armGroupLabels": [
+       "Investigational Vaccine 2",
+       "Investigational Vaccine 2b"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo",
+       "Placebo-b"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT06788522"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Suvorexant",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Suvorexant",
+      "armGroupLabels": [
+       "Suvorexant"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02970461"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Control Group",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Gamified Group",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "OTHER",
+      "name": "Gamified Group",
+      "armGroupLabels": [
+       "Gamified Group"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Control Group",
+      "armGroupLabels": [
+       "Control Group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00000479"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "2",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "3",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "4",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Aspirin",
+      "armGroupLabels": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Vitamin E",
+      "armGroupLabels": [
+       "1",
+       "2"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "2",
+       "3",
+       "4"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04652102"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Randomized Observer-blinded Phase 2b: Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Randomized Observer-blinded Phase 3: CVnCoV vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Randomized Observer-blinded Phase 3: Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Open-label Phase",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "CVnCoV",
+      "armGroupLabels": [
+       "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+       "Randomized Observer-blinded Phase 3: CVnCoV vaccine"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Randomized Observer-blinded Phase 2b: Placebo",
+       "Randomized Observer-blinded Phase 3: Placebo"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Authorized/licensed vaccines for preventing COVID-19 (AV) as standard of care through their national vaccination program",
+      "armGroupLabels": [
+       "Open-label Phase"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04904471"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Experimental",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo Comparator",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Recombinant COVID-19 vaccine (Sf9 cells)",
+      "armGroupLabels": [
+       "Experimental"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo control",
+      "armGroupLabels": [
+       "Placebo Comparator"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT05035212"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Efficacy Study: RSVpreF vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Efficacy Study: Placebo dose",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "SSA: Vaccination of RSVpreF recipients with RSVpreF (Year 2 revaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SSA: Vaccination of RSVpreF recipients with Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "SSB: Vaccination of RSVpreF recipients with RSVpreF (Year 1 revaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SSB: Vaccination of RSVpreF recipients with Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "SSC: Vaccination of RSVpreF recipients with RSVpreF (Year 3 revaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SSC: Vaccination of RSVpreF recipients with RSVpreF (Year 4 revaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SSC: Vaccination of RSVpreF recipients with Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "RSVpreF",
+      "armGroupLabels": [
+       "Efficacy Study: RSVpreF vaccine",
+       "SSA: Vaccination of RSVpreF recipients with RSVpreF (Year 2 revaccination)",
+       "SSB: Vaccination of RSVpreF recipients with RSVpreF (Year 1 revaccination)",
+       "SSC: Vaccination of RSVpreF recipients with RSVpreF (Year 3 revaccination)",
+       "SSC: Vaccination of RSVpreF recipients with RSVpreF (Year 4 revaccination)"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Efficacy Study: Placebo dose",
+       "SSA: Vaccination of RSVpreF recipients with Placebo",
+       "SSB: Vaccination of RSVpreF recipients with Placebo",
+       "SSC: Vaccination of RSVpreF recipients with Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00007501"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Arm 1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Arm 2",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Varicella-zoster vaccine",
+      "armGroupLabels": [
+       "Arm 1"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Arm 2"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT03946410"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Screening",
+      "type": "ACTIVE_COMPARATOR"
+     },
+     {
+      "label": "Control",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DIAGNOSTIC_TEST",
+      "name": "Invitation to screening",
+      "armGroupLabels": [
+       "Control",
+       "Screening"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT06592794"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "mRNA-1403",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "mRNA-1403",
+      "armGroupLabels": [
+       "mRNA-1403"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT00006392"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Vitamin E + selenium placebo",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Selenium + vitamin E placebo",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Vitamin E + selenium",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Vitamin E placebo + selenium placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Vitamin E",
+      "armGroupLabels": [
+       "Vitamin E + selenium",
+       "Vitamin E + selenium placebo"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Selenium",
+      "armGroupLabels": [
+       "Selenium + vitamin E placebo",
+       "Vitamin E + selenium"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Vitamin E placebo",
+      "armGroupLabels": [
+       "Selenium + vitamin E placebo",
+       "Vitamin E placebo + selenium placebo"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "selenium placebo",
+      "armGroupLabels": [
+       "Vitamin E + selenium placebo",
+       "Vitamin E placebo + selenium placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04659239"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Investigational Vaccine",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Inactivated SARS-CoV-2 Vaccine (Vero cell)",
+      "armGroupLabels": [
+       "Investigational Vaccine"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT05682638"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Vaccine group",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Control group",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "LVRNA009",
+      "armGroupLabels": [
+       "Control group",
+       "Vaccine group"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "0.9%NaCl",
+      "armGroupLabels": [
+       "Control group",
+       "Vaccine group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04530396"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Primary Group",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Control Group",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Gam-COVID-Vac",
+      "armGroupLabels": [
+       "Primary Group"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "placebo",
+      "armGroupLabels": [
+       "Control Group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT07502560"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Recombinant zoster vaccine Group",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo Group",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Recombinant zoster vaccine",
+      "armGroupLabels": [
+       "Recombinant zoster vaccine Group"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo Group"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04611802"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Initial vaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo (Initial Vaccination)",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Crossover Vaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Booster Vaccination)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Second Booster)",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo (Crossover Vaccination)",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Initial Vaccination Period)",
+      "armGroupLabels": [
+       "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Initial vaccination)"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo (Initial Vaccination Period)",
+      "armGroupLabels": [
+       "Placebo (Initial Vaccination)"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Crossover Vaccination period)",
+      "armGroupLabels": [
+       "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Crossover Vaccination)"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo (Crossover Vaccination period)",
+      "armGroupLabels": [
+       "Placebo (Crossover Vaccination)"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Booster Vaccination)",
+      "armGroupLabels": [
+       "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Booster Vaccination)"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Second Booster Vaccination)",
+      "armGroupLabels": [
+       "SARS-CoV-2 rS/Matrix-M1 Adjuvant (Second Booster)"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04516746"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "AZD1222",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "AZD1222",
+      "armGroupLabels": [
+       "AZD1222"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04614948"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Ad26.COV2.S",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Ad26.COV2.S",
+      "armGroupLabels": [
+       "Ad26.COV2.S",
+       "Placebo"
+      ]
+     },
+     {
+      "type": "OTHER",
+      "name": "Placebo",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04672395"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Group 1",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Group 2",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "Booster dose of SCB-2019",
+      "type": "EXPERIMENTAL"
+     },
+     {
+      "label": "Vaccination of placebo recipients with SCB-2019",
+      "type": "PLACEBO_COMPARATOR"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "CpG 1018/Alum-adjuvanted SCB-2019 vaccine",
+      "armGroupLabels": [
+       "Group 1"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Placebo; 0.9% saline",
+      "armGroupLabels": [
+       "Group 2"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "SCB-2019 vaccine",
+      "armGroupLabels": [
+       "Booster dose of SCB-2019"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "SCB-2019 vaccine for Placebo",
+      "armGroupLabels": [
+       "Vaccination of placebo recipients with SCB-2019"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT04636697"
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+     },
+     {
+      "label": "3.75 µg of CoVLP Vaccine adjuvanted",
+      "type": "EXPERIMENTAL"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Intramuscular injection",
+      "armGroupLabels": [
+       "Placebo"
+      ]
+     },
+     {
+      "type": "BIOLOGICAL",
+      "name": "Intramuscular vaccine",
+      "armGroupLabels": [
+       "3.75 µg of CoVLP Vaccine adjuvanted"
+      ]
+     }
+    ]
+   }
+  }
+ }
+]

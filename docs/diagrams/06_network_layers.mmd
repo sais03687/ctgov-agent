@@ -1,0 +1,24 @@
+flowchart TD
+    I(["All intervention names in the trials"]):::registry
+    L1["<b>Layer 1: arms rule</b><br/>app/aggregate/network.py"]:::code
+    L2["<b>Layer 2: type rule</b><br/>app/aggregate/network.py"]:::code
+    L3["<b>Layer 3: stop-list</b><br/>app/aggregate/network.py"]:::code
+    L4["<b>Layer 4: label model</b><br/>app/aggregate/labels.py"]:::llm
+    K(["Drug nodes in the chart"]):::good
+    X1["27 removed<br/>given in placebo arms only"]:::removed
+    X2["881 removed<br/>not a drug or biological"]:::removed
+    X3["8 removed<br/>placebo or standard care names"]:::removed
+    X4["1 removed<br/>not a specific drug"]:::removed
+    I --> L1 --> L2 --> L3 --> L4 --> K
+    L1 -.-> X1
+    L2 -.-> X2
+    L3 -.-> X3
+    L4 -.-> X4
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3

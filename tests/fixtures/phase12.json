@@ -1,0 +1,1093 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04752826",
+          "briefTitle": "BI-1808 as a Single Agent and With Pembrolizumab (KEYTRUDA\u00ae ) in Treatment of Advanced Malignancies(Keynote-D20)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-01-25",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "BioInvent International AB",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Advanced Malignancies",
+            "Ovarian Cancer",
+            "T-cell Lymphoma",
+            "Melanoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 250
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase I, Part A - Dose escalation and safety of BI-1808 as single agent",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase I, Part B - Dose escalation and Safety of BI-1808 in combination with pembrolizumab",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 2a - Part A dose expansion of BI-1808 as a single agent",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 2a, Part B - Dose expansion of BI-1808 in combination with pembrolizumab",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 2a, Part C - Dose expansion of BI-1808 in combination with pembrolizumab and paclitaxel",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BI-1808",
+              "armGroupLabels": [
+                "Phase 2a - Part A dose expansion of BI-1808 as a single agent",
+                "Phase 2a, Part B - Dose expansion of BI-1808 in combination with pembrolizumab",
+                "Phase 2a, Part C - Dose expansion of BI-1808 in combination with pembrolizumab and paclitaxel",
+                "Phase I, Part A - Dose escalation and safety of BI-1808 as single agent",
+                "Phase I, Part B - Dose escalation and Safety of BI-1808 in combination with pembrolizumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pembrolizumab (KEYTRUDA\u00ae ) 25 Mg/mL Solution for Injection",
+              "armGroupLabels": [
+                "Phase 2a, Part B - Dose expansion of BI-1808 in combination with pembrolizumab",
+                "Phase 2a, Part C - Dose expansion of BI-1808 in combination with pembrolizumab and paclitaxel",
+                "Phase I, Part B - Dose escalation and Safety of BI-1808 in combination with pembrolizumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel 80 mg/m2 weekly",
+              "armGroupLabels": [
+                "Phase 2a, Part C - Dose expansion of BI-1808 in combination with pembrolizumab and paclitaxel"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05271318",
+          "briefTitle": "Oncolytic Adenovirus Coding for TNFa and IL2 (TILT-123) With Pembrolizumab or Pembrolizumab (Phase 1a) and Pegylated Liposomal Doxorubicin (Phase 1b) as Treatment for Ovarian Cancer."
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "startDateStruct": {
+            "date": "2022-05-17",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-08",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "TILT Biotherapeutics Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Platinum-refractory Ovarian Carcinoma",
+            "Platinum-resistant Ovarian Cancer",
+            "Platinum-Resistant Fallopian Tube Carcinoma",
+            "Platinum-Resistant Primary Peritoneal Carcinoma",
+            "Platinum-Refractory Fallopian Tube Carcinoma",
+            "Platinum-Refractory Primary Peritoneal Carcinoma",
+            "Platinum-Sensitive Ovarian Cancer in Which the Participant Has Allergy or Severe Intolerance to Carboplatin and/or Cisplatin",
+            "Platinum-Sensitive Fallopian Tube Carcinoma in Which the Participant Has Allergy or Severe Intolerance to Carboplatin and/or Cisplatin",
+            "Platinum-Sensitive Primary Peritoneal Carcinoma in Which the Participant Has Allergy or Severe Intolerance to Carboplatin and/or Cisplatin"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 29
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase 1 part - TILT-123 and pembrolizumab",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b part - TILT-123 and pembrolizumab and pegylated liposomal doxorubicin",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "TILT-123",
+              "armGroupLabels": [
+                "Phase 1 part - TILT-123 and pembrolizumab",
+                "Phase 1b part - TILT-123 and pembrolizumab and pegylated liposomal doxorubicin"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "pembrolizumab",
+              "armGroupLabels": [
+                "Phase 1 part - TILT-123 and pembrolizumab",
+                "Phase 1b part - TILT-123 and pembrolizumab and pegylated liposomal doxorubicin"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "pegylated liposomal doxorubicin",
+              "armGroupLabels": [
+                "Phase 1b part - TILT-123 and pembrolizumab and pegylated liposomal doxorubicin"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Finland"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02713529",
+          "briefTitle": "Safety and Efficacy Study of AMG 820 and Pembrolizumab Combination in Select Advanced Solid Tumor Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2016-04-14",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2019-05-17",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-01-20"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AmMax Bio, Inc.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pancreatic Cancer",
+            "Colorectal Cancer",
+            "Non-Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 117
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "AMG820 and pembrolizumab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "AMG820 and pembrolizumab",
+              "armGroupLabels": [
+                "AMG820 and pembrolizumab"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            }
+          ]
+        }
+      },
+      "hasResults": true
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05708950",
+          "briefTitle": "A Clinical Trial of KVA12123 [TBS-2025] Treatment Alone and in Combination With Pembrolizumab In Advanced Solid Tumors (VISTA-101)"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2023-03-03",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2025-12-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Kineta Inc.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Cancer",
+            "Solid Tumor",
+            "Melanoma",
+            "Carcinoma",
+            "Sarcoma",
+            "Lung Cancer",
+            "Prostate Cancer",
+            "Breast Cancer",
+            "Colo-rectal Cancer",
+            "Uterine Cancer",
+            "Pancreatic Cancer",
+            "Gastric Cancer",
+            "Esophageal Cancer",
+            "Thyroid Cancer",
+            "Ovarian Cancer",
+            "Kidney Cancer",
+            "Head and Neck Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 40
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "KVA12123 [TBS-2025] Monotherapy Dose Escalation",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "KVA12123 [TBS-2025] Plus Pembrolizumab Dose Escalation",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "KVA12123 [TBS-2025] Monotherapy Dose Expansion",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "KVA12123 Plus Pembrolizumab Dose Expansion",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "KVA12123 - Dose Escalation",
+              "armGroupLabels": [
+                "KVA12123 [TBS-2025] Monotherapy Dose Escalation"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "KVA12123 Plus Pembrolizumab - Dose Escalation",
+              "armGroupLabels": [
+                "KVA12123 [TBS-2025] Plus Pembrolizumab Dose Escalation"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "KVA12123 - Dose Expansion",
+              "armGroupLabels": [
+                "KVA12123 [TBS-2025] Monotherapy Dose Expansion"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "KVA12123 Plus Pembrolizumab - Dose Expansion",
+              "armGroupLabels": [
+                "KVA12123 Plus Pembrolizumab Dose Expansion"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02499835",
+          "briefTitle": "Vaccine Therapy and Pembrolizumab in Treating Patients With Hormone-Resistant, Metastatic Prostate Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2015-07-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2023-07-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-08-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Wisconsin, Madison",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Hormone-Resistant Prostate Cancer",
+            "Metastatic Malignant Neoplasm in the Bone",
+            "Metastatic Malignant Neoplasm in the Soft Tissues",
+            "Metastatic Prostate Carcinoma",
+            "Prostate Adenocarcinoma",
+            "Recurrent Prostate Carcinoma",
+            "Stage IV Prostate Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 66
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Arm I (pTVG-HP plasmid DNA vaccine, concurrent pembrolizumab)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Arm II (pTVG-HP plasmid DNA vaccine, sequential pembrolizumab)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Extended Treatment Arm III",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Extended Treatment Arm IV",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "armGroupLabels": [
+                "Arm I (pTVG-HP plasmid DNA vaccine, concurrent pembrolizumab)",
+                "Arm II (pTVG-HP plasmid DNA vaccine, sequential pembrolizumab)",
+                "Extended Treatment Arm III",
+                "Extended Treatment Arm IV"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "pTVG-HP Plasmid DNA Vaccine",
+              "armGroupLabels": [
+                "Arm I (pTVG-HP plasmid DNA vaccine, concurrent pembrolizumab)",
+                "Arm II (pTVG-HP plasmid DNA vaccine, sequential pembrolizumab)",
+                "Extended Treatment Arm III",
+                "Extended Treatment Arm IV"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": true
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07410676",
+          "briefTitle": "EBNK-001 Allogeneic NK Cells With Low-Dose IL-15 \u00b1 Pembrolizumab in Advanced Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-02-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-12-21",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-02-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Essen Biotech",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Cancer",
+            "Sarcoma",
+            "Leukaemia",
+            "Breast Cancer (Locally Advanced or Metastatic)",
+            "Lung Cancer (Diagnosis)",
+            "Colorectal Cancer",
+            "Melanoma (Skin Cancer)",
+            "Bladder Cancer",
+            "Kidney Cancer",
+            "Pancreatic Cancer Metastatic",
+            "Liver Cancer (Primary and Metastatic)",
+            "Ovarian Cancer",
+            "Esophageal Cancer",
+            "Glioblastoma",
+            "Non-Melanoma Skin Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 83
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "EBNK-001 + IL-15 + Pembrolizumab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "EBNK-001 + IL-15 + Pembrolizumab",
+              "armGroupLabels": [
+                "EBNK-001 + IL-15 + Pembrolizumab"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07817901",
+          "briefTitle": "Phase 1b/2 Clinical Trial to Evaluate the Safety and Efficacy of Combination Therapy With Pembrolizumab and Irinotecan in Patients With Metastatic or Recurrent Malignant Melanoma"
+        },
+        "statusModule": {
+          "overallStatus": "NOT_YET_RECRUITING",
+          "startDateStruct": {
+            "date": "2026-11-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2028-06-08",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-14"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Yonsei University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Unresectable or Metastatic Melanoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 46
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Pembrolizumab Plus Irinotecan Combination Therapy",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Pembrolizumab and Irinotecan",
+              "armGroupLabels": [
+                "Pembrolizumab Plus Irinotecan Combination Therapy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {}
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06054477",
+          "briefTitle": "Study of ALE.C04 in Patients With Head and Neck Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "TERMINATED",
+          "startDateStruct": {
+            "date": "2023-10-30",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2025-02-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-02-17"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Alentis Therapeutics AG",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Head and Neck Cancer",
+            "Head and Neck Squamous Cell Carcinoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 21
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase 1 Dose Escalation",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1 Recommended Dose for Expansion",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 2 Randomized Combination part",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ALE.C04",
+              "armGroupLabels": [
+                "Phase 1 Dose Escalation",
+                "Phase 1 Recommended Dose for Expansion",
+                "Phase 2 Randomized Combination part"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pembrolizumab",
+              "armGroupLabels": [
+                "Phase 1 Dose Escalation",
+                "Phase 1 Recommended Dose for Expansion",
+                "Phase 2 Randomized Combination part"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Switzerland"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03278665",
+          "briefTitle": "4SC-202 in Combination With Pembrolizumab in Patients Primary Refractory/Non-responding to Prior Anti-PD-1 Therapy"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2017-09-25",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2022-02-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-02-04"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "4SC AG",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Malignant Melanoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 40
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "4SC-202 + Pembrolizumab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "4SC-202 in combination with Pembrolizumab",
+              "armGroupLabels": [
+                "4SC-202 + Pembrolizumab"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Italy"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05144698",
+          "briefTitle": "RAPA-201 Therapy of Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-08-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-05-14"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Rapa Therapeutics LLC",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Solid Tumor",
+            "Small Cell and Non-small Cell Lung Cancer",
+            "Head and Neck Cancer",
+            "Squamous Cell Carcinoma of Oral Cavity",
+            "Squamous Cell Carcinoma of Larynx",
+            "Squamous Cell Carcinoma of Nasopharynx",
+            "Squamous Cell Carcinoma of Other Specified Sites of Skin",
+            "Malignant Melanoma",
+            "Esophageal Squamous Cell Carcinoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 37
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Administration of RAPA-201 cells",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "RAPA-201 Rapamycin Resistant T Cells",
+              "armGroupLabels": [
+                "Administration of RAPA-201 cells"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Chemotherapy Prior to RAPA-201 Therapy",
+              "armGroupLabels": [
+                "Administration of RAPA-201 cells"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pembrolizumab (PD-1 Blocking Antibody)",
+              "armGroupLabels": [
+                "Administration of RAPA-201 cells"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    }
+  ],
+  "nextPageToken": "ZVNj7o2Elu8o3lpzDMiio-numpOQJJxuYvej1fcW"
+}

@@ -1,0 +1,650 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04003636",
+          "briefTitle": "Pembrolizumab (MK-3475) Plus Gemcitabine/Cisplatin Versus Placebo Plus Gemcitabine/Cisplatin for First-Line Advanced and/or Unresectable Biliary Tract Carcinoma (BTC) (MK-3475-966/KEYNOTE-966)"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2019-09-24",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2025-04-01",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-24"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Merck Sharp & Dohme LLC",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Biliary Tract Carcinoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 1069
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Arm A (Pembrolizumab+Chemotherapy)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Arm B (Placebo+Chemotherapy)",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "armGroupLabels": [
+                "Arm A (Pembrolizumab+Chemotherapy)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine",
+              "armGroupLabels": [
+                "Arm A (Pembrolizumab+Chemotherapy)",
+                "Arm B (Placebo+Chemotherapy)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "armGroupLabels": [
+                "Arm A (Pembrolizumab+Chemotherapy)",
+                "Arm B (Placebo+Chemotherapy)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "armGroupLabels": [
+                "Arm B (Placebo+Chemotherapy)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      },
+      "hasResults": true
+    }
+  ],
+  "nextPageToken": "ZVNj7o2Elu8o3lpzDMiio-numpOQJJxubPWs3vg"
+}

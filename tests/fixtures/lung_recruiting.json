@@ -1,0 +1,5338 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07010263",
+          "briefTitle": "A Study of AK112 as Consolidation Treatment for Patients With Limited Stage Small-cell Lung Cancer Who Have Not Progressed Following Concurrent Chemoradiation Therapy"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-06-13",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-07-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Akeso",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 560
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Ak112 arm",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Placebo arm",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AK112",
+              "armGroupLabels": [
+                "Ak112 arm"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "armGroupLabels": [
+                "Placebo arm"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03394365",
+          "briefTitle": "A Phase 3 Study of Tabelecleucel for Participants With Epstein-Barr Virus-Associated Post-Transplant Lymphoproliferative Disease After Failure With Rituximab or Rituximab and Chemotherapy"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2017-12-29",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2030-08",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-02"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Pierre Fabre Medicament",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Epstein-Barr Virus+ Associated Post-transplant Lymphoproliferative Disease (EBV+ PTLD)",
+            "Solid Organ Transplant Complications",
+            "Lymphoproliferative Disorders",
+            "Allogeneic Hematopoietic Cell Transplant",
+            "Stem Cell Transplant Complications"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 115
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Cohort SOT-R (C-SOT-R)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Cohort SOT-R+C (C-SOT-R+C)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Cohort HCT (C-HCT)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "tabelecleucel",
+              "armGroupLabels": [
+                "Cohort HCT (C-HCT)",
+                "Cohort SOT-R (C-SOT-R)",
+                "Cohort SOT-R+C (C-SOT-R+C)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05963867",
+          "briefTitle": "A Study to Test How BI 764532 is Taken up by Tumours in People With Small-cell Lung Cancer or Neuroendocrine Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-08-06",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12-25",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-08-21"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Boehringer Ingelheim",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small Cell Lung Carcinoma (SCLC)",
+            "Neuroendocrine Neoplasms"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 12
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Cohort 1",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Cohort 2",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BI 764532",
+              "armGroupLabels": [
+                "Cohort 1",
+                "Cohort 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "[89Zr]Zr-BI 764532",
+              "armGroupLabels": [
+                "Cohort 1",
+                "Cohort 2"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07596121",
+          "briefTitle": "Serplulimab Monotherapy in Elderly Patients With NSCLC and PD-L1 TPS \u2265 50%"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-05-13",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-05-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-19"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Tang-Du Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "NSCLC (Non-small Cell Lung Cancer)"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 60
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Serplulimab Monotherapy",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Serplulimab",
+              "armGroupLabels": [
+                "Serplulimab Monotherapy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06910657",
+          "briefTitle": "IDOV-Immune for Advanced Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-08-25",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-05-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-08-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "ViroMissile, Inc.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Colorectal Cancer",
+            "Pancreatic Cancer",
+            "Melanoma",
+            "Ovarian Cancer",
+            "Gastric Cancer",
+            "Esophageal Cancer",
+            "Hepatocellular Carcinoma",
+            "Renal Cell Carcinoma",
+            "Breast Cancer",
+            "Sarcoma",
+            "Bladder Cancer",
+            "Lung Cancer",
+            "Prostate Cancer",
+            "Cervical Cancers",
+            "Head and Neck Cancers",
+            "Adrenal Gland Tumors"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 78
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "IDOV-Immune Dose Escalation Arm",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "IDOV-Immune (oncolytic vaccinia virus)",
+              "armGroupLabels": [
+                "IDOV-Immune Dose Escalation Arm"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05341492",
+          "briefTitle": "EGFR/B7H3 CAR-T on Lung Cancer and Triple Negative Breast Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-05-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2035-05-01",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-06-25"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Second Affiliated Hospital of Guangzhou Medical University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "EGFR/ B7H3-positive Advanced Lung Cancer",
+            "EGFR/ B7H3-positive Advanced Triple-negative Breast Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "EARLY_PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 30
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Treatment",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "EGFR/B7H3 CAR-T",
+              "armGroupLabels": [
+                "Treatment"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07552467",
+          "briefTitle": "Sub-topic Four: Clinical Translation of Original Radioactive Drugs for Precision Diagnosis and Treatment of Gastrointestinal Tumors -Clinical Application Value of PET Imaging Targeting LRRC15 in Malignant Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-04-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-03-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-04-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pancreatic Cancer",
+            "Breast Cancer",
+            "Lung Cancer",
+            "Sarcoma",
+            "Head and Neck Tumors",
+            "Glioblastoma",
+            "Colorectal Cancer",
+            "Melanoma"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 26
+          }
+        },
+        "armsInterventionsModule": {
+          "interventions": [
+            {
+              "type": "DIAGNOSTIC_TEST",
+              "name": "Specific PET imaging agents targeting LRRC15"
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05517811",
+          "briefTitle": "Pre- and Post-operative TEG Indices in Patients With or Without Adenocarcinoma Undergoing Surgical Resection"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-06-26",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-07-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-08-24"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Colorado, Denver",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Liver Cancer",
+            "Esophageal Cancer",
+            "Colorectal Cancer",
+            "Lung Adenocarcinoma",
+            "Control",
+            "Pancreas Cancer",
+            "Biliary Cancer"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 200
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Cancer"
+            },
+            {
+              "label": "Control"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DIAGNOSTIC_TEST",
+              "name": "TEG indices",
+              "armGroupLabels": [
+                "Cancer",
+                "Control"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05627960",
+          "briefTitle": "First in Human Phase 1 Study of AG01 Anti-Progranulin/GP88 Antibody in Advanced Solid Tumor Malignancies"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-02-14",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-11",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-11-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "A&G Pharmaceutical Inc.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Triple Negative Breast Cancer",
+            "Hormone-Resistant Breast Cancer",
+            "Non Small Cell Lung Cancer",
+            "Mesothelioma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 77
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "AG-01 treated group phase 1A",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "AG-01 1B triple negative breast cancer treated group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "AG-01 1B Hormone-resistant breast cancer",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "AG-01 1B NSCLC",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "AG-01-1B mesothelioma",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AG-01 Compound",
+              "armGroupLabels": [
+                "AG-01 1B Hormone-resistant breast cancer",
+                "AG-01 1B NSCLC",
+                "AG-01 1B triple negative breast cancer treated group",
+                "AG-01 treated group phase 1A",
+                "AG-01-1B mesothelioma"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06476093",
+          "briefTitle": "SRT Combined With Anlotinib for the Treatment of Brain Metastases From Non-small Cell Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-07-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2027-02-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-06-26"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "The First People's Hospital of Lianyungang",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Small-Cell Lung Cancer",
+            "Brain Metastases"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 46
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Anlotinib+SRT Group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Anlotinib hydrochloride",
+              "armGroupLabels": [
+                "Anlotinib+SRT Group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05703516",
+          "briefTitle": "A Post Approval Commitment Study on Tabrecta\u00ae (Capmatinib) in South Korea"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-06-12",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-10-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-06-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Novartis Pharmaceuticals",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Small-Cell Lung Carcinoma"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 44
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Capmatinib"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "OTHER",
+              "name": "Capmatinib",
+              "armGroupLabels": [
+                "Capmatinib"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05544240",
+          "briefTitle": "Phase 1 Trial of SYNC-T - Immunotherapy for Patients With Advanced/Metastatic Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-02-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2025-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-04-06"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Williams Cancer Foundation",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Metastatic Cancer",
+            "Metastatic Breast Cancer",
+            "Metastatic Lung Cancer",
+            "Solid Tumor",
+            "Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 20
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Treatment Arm",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "SV-101",
+              "armGroupLabels": [
+                "Treatment Arm"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Mexico"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07155174",
+          "briefTitle": "A Study to Evaluate the Optimal Dose, Adverse Events and Change in Disease Activity of Intravenous ABBV-706 in Combination With Atezolizumab Versus Standard of Care as First-Line Treatment in Adult Participants With Previously Untreated Extensive Stage Small Cell Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-11-25",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2031-09",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-02"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AbbVie",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 180
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Safety Lead-In: ABBV-706 Dose A",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Safety Lead-In: ABBV-706 Dose B",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Safety Lead-In: Stand of Care (SOC)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Expansion: ABBV-706 Dose A",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Expansion: ABBV-706 Dose B",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Expansion: SOC",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ABBV-706",
+              "armGroupLabels": [
+                "Expansion: ABBV-706 Dose A",
+                "Expansion: ABBV-706 Dose B",
+                "Safety Lead-In: ABBV-706 Dose A",
+                "Safety Lead-In: ABBV-706 Dose B"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Atezolizumab",
+              "armGroupLabels": [
+                "Expansion: ABBV-706 Dose A",
+                "Expansion: ABBV-706 Dose B",
+                "Expansion: SOC",
+                "Safety Lead-In: ABBV-706 Dose A",
+                "Safety Lead-In: ABBV-706 Dose B",
+                "Safety Lead-In: Stand of Care (SOC)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Etoposide",
+              "armGroupLabels": [
+                "Expansion: SOC",
+                "Safety Lead-In: Stand of Care (SOC)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "armGroupLabels": [
+                "Expansion: SOC",
+                "Safety Lead-In: Stand of Care (SOC)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "armGroupLabels": [
+                "Expansion: SOC",
+                "Safety Lead-In: Stand of Care (SOC)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Lurbinectedin",
+              "armGroupLabels": [
+                "Expansion: SOC",
+                "Safety Lead-In: Stand of Care (SOC)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07132918",
+          "briefTitle": "HEARTS Trial for Thoracic Cancers"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-10-08",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-03",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-15"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Wisconsin, Madison",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Small Cell Lung Cancer (Stage III)",
+            "Esophageal Cancer Stage I-III",
+            "Esophagogastric Cancer Stage I-III",
+            "Thymoma and Thymic Carcinoma Stage II-III",
+            "Other Cancers in the Thoracic Region"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 60
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "MRgART radiation therapy",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "LINAC radiation therapy",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "RADIATION",
+              "name": "MRgART",
+              "armGroupLabels": [
+                "MRgART radiation therapy"
+              ]
+            },
+            {
+              "type": "RADIATION",
+              "name": "LINAC",
+              "armGroupLabels": [
+                "LINAC radiation therapy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07064018",
+          "briefTitle": "Trial of Single Protein Encapsulated Doxorubicin, SPEDOX-6 in Advanced Malignancies"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-04-30",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2031-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-17"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of California, Irvine",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Soft-tissue Sarcoma",
+            "Triple Negative Breast Cancer",
+            "Non-small Cell Lung Cancer",
+            "Cervical Cancer",
+            "Ovarian Cancer",
+            "KRAS Mutation-Related Tumors"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 67
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase 1b Dose Level 1 - Spedox-6",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 2 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 3 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 4 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 5 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 6 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 7 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Phase 1b Dose Level 8 - Spedox-6 + Filgrastim/Pegfilgrastim",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Spedox-6",
+              "armGroupLabels": [
+                "Phase 1b Dose Level 1 - Spedox-6",
+                "Phase 1b Dose Level 2 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 3 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 4 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 5 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 6 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 7 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 8 - Spedox-6 + Filgrastim/Pegfilgrastim"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pegfilgrastim",
+              "armGroupLabels": [
+                "Phase 1b Dose Level 2 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 3 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 4 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 5 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 6 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 7 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 8 - Spedox-6 + Filgrastim/Pegfilgrastim"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Filgrastim",
+              "armGroupLabels": [
+                "Phase 1b Dose Level 2 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 3 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 4 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 5 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 6 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 7 - Spedox-6 + Filgrastim/Pegfilgrastim",
+                "Phase 1b Dose Level 8 - Spedox-6 + Filgrastim/Pegfilgrastim"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04683250",
+          "briefTitle": "Study of RET Inhibitor TAS0953/HM06 in Patients With Advanced Solid Tumors With RET Gene Abnormalities"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2020-12-16",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2031-03",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-08-19"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Taiho Pharmaceutical Co., Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "RET-altered Non Small Cell Lung Cancer",
+            "RET-altered Solid Tumors"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 244
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "TAS0953/HM06 Phase 1",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "TAS0953/HM06 Phase 2",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "TAS0953/HM06",
+              "armGroupLabels": [
+                "TAS0953/HM06 Phase 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "TAS0953/HM06",
+              "armGroupLabels": [
+                "TAS0953/HM06 Phase 2"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04771520",
+          "briefTitle": "Avapritinib for the Treatment of CKIT or PDGFRA Mutation-Positive Locally Advanced or Metastatic Malignant Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-01-20",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-06-11"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "M.D. Anderson Cancer Center",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Anatomic Stage IV Breast Cancer AJCC v8",
+            "Clinical Stage IV Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Clinical Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Clinical Stage IVB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Locally Advanced Malignant Solid Neoplasm",
+            "Locally Advanced Melanoma",
+            "Locally Advanced Primary Malignant Central Nervous System Neoplasm",
+            "Locally Advanced Sarcoma",
+            "Metastatic Malignant Solid Neoplasm",
+            "Metastatic Melanoma",
+            "Metastatic Primary Malignant Central Nervous System Neoplasm",
+            "Metastatic Sarcoma",
+            "Pathologic Stage IV Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Pathologic Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Pathologic Stage IVB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Postneoadjuvant Therapy Stage IV Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Postneoadjuvant Therapy Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Postneoadjuvant Therapy Stage IVB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+            "Prognostic Stage IIIC Breast Cancer AJCC v8",
+            "Prognostic Stage IV Breast Cancer AJCC v8",
+            "Stage IIIC Colorectal Cancer AJCC v8",
+            "Stage IIIC Lung Cancer AJCC v8",
+            "Stage IV Colorectal Cancer AJCC v8",
+            "Stage IV Lung Cancer AJCC v8",
+            "Stage IVA Colorectal Cancer AJCC v8",
+            "Stage IVA Lung Cancer AJCC v8",
+            "Stage IVB Colorectal Cancer AJCC v8",
+            "Stage IVB Lung Cancer AJCC v8",
+            "Stage IVC Colorectal Cancer AJCC v8"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 50
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Treatment (avapritinib)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Avapritinib",
+              "armGroupLabels": [
+                "Treatment (avapritinib)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04893785",
+          "briefTitle": "A Trial Evaluating the Activity and Safety of Combination Between Cabozantinib and Temozolomide in Lung and GEP-NENS Progressive After Everolimus, Sunitinib or PRRT (CABOTEM)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-06-15",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-06-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Cancer Institute, Naples",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Neuroendocrine Neoplasm",
+            "GEP Neuroendocrine Tumor"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 35
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Cabozantinib and Temozolomide",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Cabozantinib and Temozolomide",
+              "armGroupLabels": [
+                "Cabozantinib and Temozolomide"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Italy"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07169708",
+          "briefTitle": "A Retrospective Observational Study of Nivolumab in Combination With Chemotherapy as Neoadjuvant Therapy for Resectable NSCLC Patients: Real-World Experience in Taiwan (NEOREAL)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-03-20",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-06-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-20"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Ono Pharmaceutical Co., Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non Small Cell Lung Cancer NSCLC"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 100
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Resectable NSCLC Patients"
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05189496",
+          "briefTitle": "Hyperbaric Oxygen in the Prevention of Radiation Pneumonitis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-03-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-02-12"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Guangdong Provincial People's Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Radiation Pneumonitis"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 380
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "hyperbaric oxygen therapy group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "control group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BEHAVIORAL",
+              "name": "hyperbaric oxygen therapy",
+              "armGroupLabels": [
+                "hyperbaric oxygen therapy group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07330596",
+          "briefTitle": "QL1706 Combined With Chemotherapy in the Treatment of Immune-mediated NSCLC"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-10-30",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-02-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-01-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Anhui Provincial Cancer Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "NSCLC (Advanced Non-small Cell Lung Cancer)"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 96
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "QL1706 combined with chemotherapy",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "chemotherapy",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "QL1706 combined with Chemotherapy",
+              "armGroupLabels": [
+                "QL1706 combined with chemotherapy"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Chemotherapy",
+              "armGroupLabels": [
+                "chemotherapy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05588388",
+          "briefTitle": "Study of Bevacizumab in Combination With Chemoimmunotherapy and Atezolizumab in Patients With Extensive Stage Small Cell Lung Cancer and Liver Metastases"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-08-11",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-12-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-08"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Kamya Sankar",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Extensive-stage Small-cell Lung Cancer",
+            "Liver Metastases"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 39
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Experimental Treatment",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bevacizumab",
+              "armGroupLabels": [
+                "Experimental Treatment"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04937283",
+          "briefTitle": "Segmentectomy Versus Lobectomy for Lung Adenocarcinoma \u2264 2cm"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2019-10-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-12-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-04-13"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Shanghai Pulmonary Hospital, Shanghai, China",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Adenocarcinoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 690
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Segmentectomy",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Lobectomy",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "PROCEDURE",
+              "name": "Segmentectomy",
+              "armGroupLabels": [
+                "Segmentectomy"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Lobectomy",
+              "armGroupLabels": [
+                "Lobectomy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06467786",
+          "briefTitle": "Study on the Therapeutic Effect of Irinotecan Liposomes in Small Cell Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-03-15",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-09-15",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-06-21"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Tang-Du Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE4"
+          ],
+          "enrollmentInfo": {
+            "count": 24
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Experimental administration group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Irinotecan hydrochloride liposome injection",
+              "armGroupLabels": [
+                "Experimental administration group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07480213",
+          "briefTitle": "Adaptive Phase 1/2 Study of Dual-Target CAR-NK Cells in Relapsed/Refractory Small Cell Lung Cancer (SCLC)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-02-02",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-04-17",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Beijing Biotech",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small Cell Lung Cancer (SCLC)",
+            "Relapsed/Refractory SCLC",
+            "SCLC, Extensive Stage"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 60
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "DLL3/CD56 Dual-Target CAR-NK (EB-DART-NK01)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "DLL3/GD2 Dual-Target CAR-NK (EB-DART-NK02)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "CD56/GD2 Dual-Target CAR-NK (EB-DART-NK03)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "EB-DART-NK01 (DLL3/CD56 CAR-NK cells)",
+              "armGroupLabels": [
+                "CD56/GD2 Dual-Target CAR-NK (EB-DART-NK03)",
+                "DLL3/CD56 Dual-Target CAR-NK (EB-DART-NK01)",
+                "DLL3/GD2 Dual-Target CAR-NK (EB-DART-NK02)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Lymphodepleting chemotherapy",
+              "armGroupLabels": [
+                "CD56/GD2 Dual-Target CAR-NK (EB-DART-NK03)",
+                "DLL3/CD56 Dual-Target CAR-NK (EB-DART-NK01)",
+                "DLL3/GD2 Dual-Target CAR-NK (EB-DART-NK02)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03199651",
+          "briefTitle": "Beating Lung Cancer in Ohio Protocol in Improving Survival in Patients With Stage IV Non-Small Cell Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2017-07-17",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-06-17"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Ohio State University Comprehensive Cancer Center",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Cigarette Smoker",
+            "Current Smoker",
+            "Lung Adenocarcinoma",
+            "Squamous Cell Lung Carcinoma",
+            "Stage IV Non-Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 3584
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Arm I (UC)",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "label": "Arm II (AGIT/DS)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "OTHER",
+              "name": "Best Practice",
+              "armGroupLabels": [
+                "Arm I (UC)"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Biospecimen Collection",
+              "armGroupLabels": [
+                "Arm I (UC)"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Biospecimen Collection",
+              "armGroupLabels": [
+                "Arm II (AGIT/DS)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Laboratory Biomarker Analysis",
+              "armGroupLabels": [
+                "Arm I (UC)",
+                "Arm II (AGIT/DS)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Medical Chart Review",
+              "armGroupLabels": [
+                "Arm I (UC)",
+                "Arm II (AGIT/DS)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Quality-of-Life Assessment",
+              "armGroupLabels": [
+                "Arm I (UC)",
+                "Arm II (AGIT/DS)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Questionnaire Administration",
+              "armGroupLabels": [
+                "Arm I (UC)",
+                "Arm II (AGIT/DS)"
+              ]
+            },
+            {
+              "type": "BEHAVIORAL",
+              "name": "Smoking Cessation Intervention",
+              "armGroupLabels": [
+                "Arm I (UC)",
+                "Arm II (AGIT/DS)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06156527",
+          "briefTitle": "A Randomized Phase II Study of LAZE rtiNib Alone Versus Lazertinib Plus bevaCizumab for NSCLC With EGFR + & Smoker"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-09-05",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-12-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Cancer Center, Korea",
+            "class": "OTHER_GOV"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lazertinib"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 120
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "single arm",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "label": "combination arm",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Lazertinib",
+              "armGroupLabels": [
+                "combination arm",
+                "single arm"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Bevacizumab Injectable Product",
+              "armGroupLabels": [
+                "combination arm"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04706754",
+          "briefTitle": "Pan-Canadian Lung Cancer Observational Study (PALEOS)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2020-04-07",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2045-04-07",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-08-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "William Osler Health System",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 25000
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Prospective"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "OTHER",
+              "name": "Questionnaires",
+              "armGroupLabels": [
+                "Prospective"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Canada"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07388524",
+          "briefTitle": "Testing the Impact of an Anti-Cancer Drug, Atezolizumab, After Surgery to Prevent Early Stage Non-small Cell Lung Cancer From Returning, AASI-NSCLC Trial"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2027-03-02",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2032-09-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Cancer Institute (NCI)",
+            "class": "NIH"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Non-Small Cell Carcinoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 336
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Arm A (observation)",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "label": "Arm B (atezolizumab)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Atezolizumab",
+              "armGroupLabels": [
+                "Arm B (atezolizumab)"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Atezolizumab and Recombinant Human Hyaluronidase",
+              "armGroupLabels": [
+                "Arm B (atezolizumab)"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Biospecimen Collection",
+              "armGroupLabels": [
+                "Arm A (observation)",
+                "Arm B (atezolizumab)"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Computed Tomography",
+              "armGroupLabels": [
+                "Arm A (observation)",
+                "Arm B (atezolizumab)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Patient Observation",
+              "armGroupLabels": [
+                "Arm A (observation)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07827183",
+          "briefTitle": "AI-Personalized Discharge Education for Patients After Lung Cancer Surgery"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-08-15",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-11-15",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Xiamen University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer (Diagnosis)"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 156
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "AI-Personalized Discharge Education",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Routine Discharge Education",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BEHAVIORAL",
+              "name": "AI-Personalized Discharge Education",
+              "armGroupLabels": [
+                "AI-Personalized Discharge Education"
+              ]
+            },
+            {
+              "type": "BEHAVIORAL",
+              "name": "Routine Discharge Education",
+              "armGroupLabels": [
+                "AI-Personalized Discharge Education",
+                "Routine Discharge Education"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07554339",
+          "briefTitle": "A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-06-18",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2037-08-17",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Merck Sharp & Dohme LLC",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 310
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Calderasib + Durvalumab",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Placebo + Durvalumab",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Calderasib",
+              "armGroupLabels": [
+                "Calderasib + Durvalumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Durvalumab",
+              "armGroupLabels": [
+                "Calderasib + Durvalumab",
+                "Placebo + Durvalumab"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo to MK-1084",
+              "armGroupLabels": [
+                "Placebo + Durvalumab"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07744529",
+          "briefTitle": "Amivantamab Combined With Intrathecal Pemetrexed for LM From EGFR-Mutated Lung Adenocarcinoma"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-05-28",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-05-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-08-04"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Leptomeningeal Metastasis From Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 15
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Treatment group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Amivantamab+ systemic/ intrathecal Pemetrexed",
+              "armGroupLabels": [
+                "Treatment group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07370077",
+          "briefTitle": "Research on Early Screening and Diagnosis of Pulmonary Nodules Based on Novel Non-invasive Technologies."
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-12-31",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-06-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-01-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Chen KeZhong",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 1800
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Healthy, Benign, Malignant"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DIAGNOSTIC_TEST",
+              "name": "Employing multi-omics diagnostic approaches to enhance diagnostic efficacy",
+              "armGroupLabels": [
+                "Healthy, Benign, Malignant"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07761351",
+          "briefTitle": "A Randomized Controlled Trial Comparing Percutaneous CT-Guided Biopsy and Shape-Sensing Robotic-Assisted Bronchoscopy"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-08-28",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-04-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-25"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Intuitive Surgical",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer (Diagnosis)",
+            "Lung Nodule"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE4"
+          ],
+          "enrollmentInfo": {
+            "count": 550
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Shape-Sensing Robotic-Assisted Bronchoscopy with Cone-Beam CT (ssRAB with CBCT)",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "label": "CT-Guided Percutaneous Lung Nodule Biopsy",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "PROCEDURE",
+              "name": "Shape-Sensing Robotic-Assisted Bronchoscopy with Cone-Beam CT (ssRAB with CBCT)",
+              "armGroupLabels": [
+                "Shape-Sensing Robotic-Assisted Bronchoscopy with Cone-Beam CT (ssRAB with CBCT)"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "CT-guided percutaneous lung nodule biopsy",
+              "armGroupLabels": [
+                "CT-Guided Percutaneous Lung Nodule Biopsy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06296745",
+          "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis From Lung Adenocarcinoma That Progressed After Osimertinib."
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-09-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-03-20",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-01-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Guangzhou Medical University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Leptomeningeal Metastasis"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 36
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "armGroupLabels": [
+                "Group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05655494",
+          "briefTitle": "A Multilevel Approach to Connecting Underrepresented Populations to Clinical Trials"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-05-20",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-08-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-08"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Florida",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Cancer"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 350
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Stand-alone Portal"
+            },
+            {
+              "label": "Portal with Virtual Community Health Educator (vCHE)"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BEHAVIORAL",
+              "name": "Stand-alone Research Portal",
+              "armGroupLabels": [
+                "Stand-alone Portal"
+              ]
+            },
+            {
+              "type": "BEHAVIORAL",
+              "name": "Portal with Virtual Community Health Educator (vCHE)",
+              "armGroupLabels": [
+                "Portal with Virtual Community Health Educator (vCHE)"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07261631",
+          "briefTitle": "Phase I Study of [177Lu]Lu-DFC413 in Patients With Solid Tumors"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-11-24",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-05-09",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Novartis Pharmaceuticals",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pancreatic Ductal Adenocarcinoma",
+            "Non-Small Cell Lung Cancer",
+            "HR+/HER2- Ductal and Lobular Breast Cancer",
+            "Triple Negative Breast Cancer",
+            "Colorectal Cancer",
+            "Soft Tissue Sarcoma"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 180
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Arm 1",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "68Ga-NNS309",
+              "armGroupLabels": [
+                "Arm 1"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "177Lu-DFC413",
+              "armGroupLabels": [
+                "Arm 1"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT01994057",
+          "briefTitle": "A Retrospective Study of EGFR-TKIs,Gefitinib, Erlotinib and Osimertinib in NSCLC Patients Treatment"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2012-09"
+          },
+          "completionDateStruct": {
+            "date": "2026-12",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-04-12"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Sun Yat-sen University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-small Cell Lung Cancer (NSCLC)",
+            "EGFR-TKI Resistant Mutation",
+            "EGFR-TKI Sensitizing Mutation",
+            "Germline Mutations",
+            "Somatic Mutation"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 1000
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "sensitive group; resistant group"
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07441941",
+          "briefTitle": "Single-Fraction Pulmonary Ablative Radiotherapy Outcomes and Quality-of-life Workup"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-01-14",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-11-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-02"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Institut du Cancer de Montpellier - Val d'Aurelle",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Oligometastatic Lung Tumor",
+            "NSCLC (Non-small Cell Lung Cancer)",
+            "SBRT"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 190
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Prospective cohort"
+            },
+            {
+              "label": "Retrospective cohort"
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07211529",
+          "briefTitle": "Intraoperative Paravertebral Block and Postoperative Complications"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-03-25",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2028-12-31",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-10-08"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Tongji Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Video-assisted Thoracoscopic Surgery (VATS)",
+            "Lung Cancer (Diagnosis)",
+            "Pulmonary Infections",
+            "Respiratory Failure Without Hypercapnia",
+            "Pleural Effusion Due to Another Disorder (Disorder)",
+            "Atelectasis",
+            "Bronchospasm",
+            "Pneumothorax",
+            "Pulmonary Embolism (Diagnosis)",
+            "Bronchopleural Fistula",
+            "Acute Respiratory Distress Syndrome (ARDS)"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 500
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Paravertebral Block (PVB)Group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Control Group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "PROCEDURE",
+              "name": "Paravertebral Block (PVB)",
+              "armGroupLabels": [
+                "Paravertebral Block (PVB)Group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05394831",
+          "briefTitle": "A Phase 1/2 Study to Evaluate the Safety, Tolerability and PK of JIN-A02 in Patients With EGFR Mutant Advanced NSCLC"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-07-30",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-09-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-05-16"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "J Ints Bio",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "EGFR Mutant Advanced Non-small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 150
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase 1 dose-escalation, Phase 1 dose-exploratory, Phase 2 dose-expansion",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "JIN-A02",
+              "armGroupLabels": [
+                "Phase 1 dose-escalation, Phase 1 dose-exploratory, Phase 2 dose-expansion"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Thailand"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07405931",
+          "briefTitle": "Evaluation of the Effectiveness of Managing Chemotherapy Side Effects Using ePRO and a Standardized Telenursing Program for Cancer Patients"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-07-09",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2026-09",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-02-12"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Ulsan University Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Early Gastric Cancer",
+            "Advanced Gastric Cancer",
+            "Early Lung Cancer",
+            "Advanced Lung Cancer",
+            "Early Breast Cancer",
+            "Advanced Breast Cancer",
+            "Early Colon Cancer",
+            "Advanced Colon Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 414
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Standard Care Group",
+              "type": "NO_INTERVENTION"
+            },
+            {
+              "label": "ePRO Group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "ePRO + Telenursing Group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "OTHER",
+              "name": "Standardized Telenursing",
+              "armGroupLabels": [
+                "ePRO + Telenursing Group"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Smart Cancer Care Plus",
+              "armGroupLabels": [
+                "ePRO + Telenursing Group",
+                "ePRO Group"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07738172",
+          "briefTitle": "Osimertinib With or Without Primary Lung Tumor Resection for EGFR-Mutant Oligometastatic Non-Small Cell Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-09-08",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2031-08-01",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Taiwan University Hospital",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Neoplasms, Non-Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 154
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Osimertinib Alone",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "label": "Osimertinib Plus Primary Tumor Resection",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "PROCEDURE",
+              "name": "Primary Tumor Resection",
+              "armGroupLabels": [
+                "Osimertinib Plus Primary Tumor Resection"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Osimertinib",
+              "armGroupLabels": [
+                "Osimertinib Alone",
+                "Osimertinib Plus Primary Tumor Resection"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Taiwan"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07416695",
+          "briefTitle": "A Phase I Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HLX3901 in Patients With Advanced SCLC or NEC"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-04-17",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-06-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-08"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Shanghai Henlius Biotech",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "SCLC",
+            "NEC"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 138
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Phase Ia\uff1aDose Escalation and Backfill",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Experimental: Phase Ib\uff1aDose Expansion",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "HLX3901",
+              "armGroupLabels": [
+                "Experimental: Phase Ib\uff1aDose Expansion",
+                "Phase Ia\uff1aDose Escalation and Backfill"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06901817",
+          "briefTitle": "A Study of the Safety and Efficacy of Pemetrexed Combined with Nivolumab Via Intraventricular Injection for the Treatment of Refractory Non-squamous Non-small Cell Lung Cancer with Leptomeningeal Metastases"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-03-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-03-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Shanghai Cancer Hospital, China",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Leptomeningeal Metastasis"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 97
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Intraventricular Pemetrexed combined with Nivolumab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Intraventricular Pemetrexed",
+              "armGroupLabels": [
+                "Intraventricular Pemetrexed combined with Nivolumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Intraventricular Nivolumab",
+              "armGroupLabels": [
+                "Intraventricular Pemetrexed combined with Nivolumab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Intraventricular Dexamethasone",
+              "armGroupLabels": [
+                "Intraventricular Pemetrexed combined with Nivolumab"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07037758",
+          "briefTitle": "A Study of Tarlatamab in Combination With AB248 in Participants With Extensive Stage Small Cell Lung Cancer (DeLLphi-311)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-09-16",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2031-01-18",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-25"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Amgen",
+            "class": "INDUSTRY"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Extensive Stage Small Cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 380
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Dose Exploration",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Dose Expansion",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Tarlatamab",
+              "armGroupLabels": [
+                "Dose Expansion",
+                "Dose Exploration"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "AB248",
+              "armGroupLabels": [
+                "Dose Expansion",
+                "Dose Exploration"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            },
+            {
+              "country": "Turkey (T\u00fcrkiye)"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04944563",
+          "briefTitle": "Comparison of Segmentectomy Versus Lobectomy for Non-small Cell Lung Cancer \u2264 2 cm in the Middle Third of the Lung Field"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-07-20",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-12-01",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-04-05"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "The First Affiliated Hospital with Nanjing Medical University",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Neoplasms",
+            "Surgery"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 1120
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Segmentectomy",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Lobectomy",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "PROCEDURE",
+              "name": "Segmentectomy",
+              "armGroupLabels": [
+                "Segmentectomy"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Lobectomy",
+              "armGroupLabels": [
+                "Lobectomy"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05332925",
+          "briefTitle": "Using Ex Vivo Tumoroids To Predict Immunotherapy Response In NSCLC"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-07-21",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-02",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-02-23"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Jun Zhang, MD, PhD",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer",
+            "NSCLC",
+            "NSCLC Stage IV"
+          ]
+        },
+        "designModule": {
+          "enrollmentInfo": {
+            "count": 25
+          }
+        },
+        "armsInterventionsModule": {
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Standard of care immune checkpoint inhbitors"
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05179408",
+          "briefTitle": "Targeted Telerehabilitation Following Curative Intent Therapy of Lung Cancer"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-01-12",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2027-03-30",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-01-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "VA Office of Research and Development",
+            "class": "FED"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer",
+            "Cancer Survivors"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 40
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Targeted telerehabilitation",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "Waitlist",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "BEHAVIORAL",
+              "name": "Targeted-telerehabilitation",
+              "armGroupLabels": [
+                "Targeted telerehabilitation"
+              ]
+            },
+            {
+              "type": "BEHAVIORAL",
+              "name": "Waitlist",
+              "armGroupLabels": [
+                "Waitlist"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06825078",
+          "briefTitle": "Performance of Lung MRI Combined to Synthetic CT in the Follow-up of Lung Nodules"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-02-12",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2029-02",
+            "type": "ESTIMATED"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University Hospital, Bordeaux",
+            "class": "OTHER"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ],
+          "enrollmentInfo": {
+            "count": 50
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "multiparametric MRI",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DEVICE",
+              "name": "multiparametric MRI",
+              "armGroupLabels": [
+                "multiparametric MRI"
+              ]
+            }
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "France"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    }
+  ],
+  "nextPageToken": "ZVNj7o2Elu8o3lpzDMiio-numpOQJJxnbPet2Pg"
+}

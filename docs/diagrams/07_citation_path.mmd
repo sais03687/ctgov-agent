@@ -1,0 +1,16 @@
+flowchart LR
+    B["<b>A bar in the chart</b><br/>United States: 247 trials"]:::good
+    T["<b>One of its trials</b><br/>NCT07070232<br/>app/citations.py"]:::code
+    E["<b>Raw registry value</b><br/>United States<br/>app/ctgov/normalize.py"]:::registry
+    P["<b>Path in the record</b><br/>locations[0].country"]:::registry
+    S["<b>Search link</b><br/>lists the 247 trials"]:::registry
+    B --> T --> E --> P
+    B --> S
+
+    classDef user fill:#f3f4f6,stroke:#4b5563,color:#111827,stroke-width:2px
+    classDef llm fill:#ffedd5,stroke:#c2410c,color:#111827,stroke-width:2px
+    classDef code fill:#dbeafe,stroke:#1d4ed8,color:#111827,stroke-width:2px
+    classDef registry fill:#dcfce7,stroke:#15803d,color:#111827,stroke-width:2px
+    classDef good fill:#d1fae5,stroke:#047857,color:#111827,stroke-width:2px
+    classDef stop fill:#fee2e2,stroke:#b91c1c,color:#111827,stroke-width:2px
+    classDef removed fill:#f3f4f6,stroke:#9ca3af,color:#374151,stroke-dasharray:4 3
