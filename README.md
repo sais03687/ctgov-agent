@@ -549,19 +549,6 @@ and an answer takes approximately one second. This design adds a database and a 
 
 ---
 
-## 11. Demo page (optional)
-
-`GET /` shows an interactive page with no libraries. It reads only the documented response.
-
-- The user asks a question or selects an example, and gets the chart with one sentence about it.
-- A click on a bar, point, node, or line shows its trials and their registry values.
-- When there is no chart, the cause is **at the top of the page**, with a maximum of three
-  **one-click suggestions** and their trial counts.
-
-Details and the browser test results are in [docs/DEMO.md](docs/DEMO.md).
-
----
-
 ## 12. Integrity note (AI tools)
 
 ### 12.1 Tools used
